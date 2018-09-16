@@ -1,0 +1,1783 @@
+@media screen and (max-width:1680px){ 
+	.banner2_area .banner2_txt { 
+	    padding-top: 16%;
+	}
+	.solution_area .solution_area_txt { 
+	    padding: 115px 100px 10px 130px; 
+	}
+}
+@media screen and (max-width:1550px){  
+	.solution_area .solution_area_txt { 
+	    padding: 100px 90px 10px 100px; 
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx { 
+	    margin: 20px 0px 50px 0px;
+	}
+}
+
+@media screen and (max-width:1440px){  
+	.banner2_area .banner2_txt { 
+		padding-top: 14%;
+	}
+	.solution_area .solution_area_txt { 
+	    padding: 65px 100px 10px 100px; 
+	}
+	.blue_quoto_bx { 
+	    margin: 30px 0px 50px 0px;
+	} 
+}
+@media screen and (max-width:1400px){ 
+	.banner2_area .banner2_txt { 
+		padding-top: 11%;
+	}
+	.solution_area .solution_area_txt { 
+	    padding: 65px 60px 10px 90px;
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx { 
+	    margin: 15px 0px 50px 0px;
+	}
+	.banner_area { 
+	    background-size: 100% 89% !important;
+	}
+	.testimonial_area { 
+		padding: 90px 0px 60px 
+	}
+} 
+@media screen and (max-width:1366px){ 
+	.banner2_area .banner2_txt { 
+		padding-top: 14%;
+	}  
+} 
+@media screen and (max-width:1305px){ 
+	.solution_area .solution_area_txt {
+		padding: 45px 60px 10px 90px;
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx {
+	    margin: 15px 0px 30px 0px;
+	}
+} 
+/*..........993px to 1200px css start here.........*/
+@media screen and (max-width: 1280px) { 
+	.solution_area .solution_area_txt p { 
+	    margin: 15px 0px 5px;
+	}
+	.banner2_area .banner2_txt h2{
+		margin-bottom: 10px;
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx {
+	    margin: 15px 0px 40px 0px;
+	}
+	.solution_area .solution_area_txt {
+	    padding: 50px 50px 10px 0;
+	    padding-left: 5%;
+	} 
+	.page-head-area{
+	    top: -78px;
+    	margin-bottom: -40px;
+	}
+}
+@media screen and (max-width: 1200px) { 
+	.page-head-area{
+	    top: -62px; 
+	}
+}
+@media screen and (max-width: 1080px) { 
+	.banner2_area .banner2_txt { 
+		padding-top: 18%;
+	}
+	.banner2_area .banner2_txt h1{
+		margin: 0;
+		font-size: 25px;
+	}
+	.banner2_area .banner2_txt h2{
+		font-size: 35px;
+	}
+	.banner2_area .banner2_txt ul li{
+		margin: 5px 0;
+	}
+}
+@media screen and (max-width:1200px){
+	.navigation_area .navbar-nav > li > a {
+	    padding: 18px;
+	}
+
+	#hbanner,
+	.hslider {
+	    margin-top: -61px !important;
+	}
+	.navigation_area li.blank_li_nav{display:none}
+	.services_area ul li figure{width:70px; margin-right:20px}
+	.about_area ul li .abt_des{width:55%}
+	.recent_area ul li{width:290px}
+
+	.testimonial_area #quote-carousel .carousel-indicators{width:80%; left:40%}
+	.recent_news_area{padding-bottom:0px}
+	footer .footer_sec2{padding-right:0px}
+	footer .footer_sec2 ul li{width:28.2%}
+	footer .footer_sec2 .businessPhoto ul li:nth-child(4), footer .footer_sec2 .businessPhoto ul li:nth-child(6){top:-25px}
+	footer .footer_sec2, footer .footer_sec3{padding:0px 30px}
+
+	.project_detl_wrapper .prjct_detl_left{width:66%}
+	.project_detl_wrapper .prjct_detl_left .progress_bx{padding:0px}
+
+	.sidebar{width:30%}
+
+	.blog_detl_wrapper .blog_detl_left{width:66%}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx{padding:20px}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx .advantage_bx_1_icon{width:66px; height:66px;}
+	.blog_detl_wrapper .blog_detl_left .leave_cmnt_bx ul li{width:48%; margin:.5%}
+	.blog_detl_wrapper .blog_detl_left .form_txt_msg{width:97%}
+
+	.contact_wrapper .addres_area .addres_area_img{width:68%}
+	.contact_wrapper .addres_area .addres_area_txt{padding:30px 0px}
+	.contact_wrapper .cntct_heading{padding:50px}
+
+	.partner_area .partner_bxs{padding:0px}
+
+	.team_wrapper .team_area{text-align:center}
+	.team_wrapper .team_area .team_bx{width:22%}
+
+	.service_details_wrapper .services_details_area .srvc_detl_bx{padding:0px}
+	.service_details_wrapper .services_details_area .srvc_detl_heading{padding:90px 100px 0px}
+
+	.portfolio3_area .portfolio_listing ul li{width:32.5%; margin:0 1% 1% 0;}
+	.portfolio3_area .portfolio_listing ul li:first-child{ width:66%}
+	.portfolio3_area .portfolio_listing ul li:last-child{ width:66%}
+
+
+	.more_ideas_area ul li .ideas_overlay h4{padding:0px}
+	.more_ideas_area ul li .ideas_overlay{margin:0px; padding:0px}
+
+	.solution_area .solution_area_txt{width:55%; padding:50px 30px 0 40px}
+	.solution_area .solution_area_videobox{width:45%; padding: 0}
+	.solution_area .solution_area_txt .blue_quoto_bx {
+	    margin: 10px 0px 20px 0px;
+	}
+
+	.solution_area .solution_area_txt .blue_quoto_bx h2 { 
+	    font-size: 13px; 
+	    line-height: 20px;
+	}
+	.solution_area .solution_area_txt p { 
+	    font-size: 15px;
+	    line-height: 22px; 
+	    margin: 10px 0px 10px;
+	}
+	.home2_portfolio_area .nav.nav-tabs{padding:0px;}
+	.traders_area .traders_area_img{width:30%; margin-top:0px}
+	.traders_area .traders_area_txt .services_area ul li{width:48%}
+	.benefits_bx3 ul li figure{width:40px; height:40px;}
+
+}
+
+@media screen and (max-width: 1199px) {
+	.portfolio_area .portfolio_thumbnail span {
+	    width: 125px;
+	    height: 140px;
+	}
+	.overall_progress_chart .progress_graph {
+	    width: 50%; 
+	    margin-right: 5%;
+	}
+	.overall_progress_chart .progress_graph_report {
+	    width: 45%; 
+	}
+	.social_area .social_area_lft {
+	    width: 60%; 
+	}
+	.social_area .social_area_rht {
+	    width: 40%; 
+	}
+	.navigation_area .nav.navbar-nav{
+		min-width: 900px;
+	}
+	.testimonial_area { 
+	    padding: 60px 0px 40px;
+	    min-height: 350px;
+	}
+	.services_area ul li .serv_des p {
+	    font-size: 14px; 
+	    line-height: 25px;
+	}
+	.traders_area .traders_area_txt .services_area ul li { 
+	    margin-bottom: 0;
+	    margin-top: 15px;
+	}
+	.navigation_area .navbar-nav > li > a {
+	    padding: 18px;
+	}
+	#hbanner, .hslider {
+	    margin-top: -61px !important;
+	}
+	.footer-widgets.widget_media_gallery .gallery .gallery-item .gallery-icon {
+	    padding-top: 0;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 { 
+	    padding: 16px 45px !important; 
+	}
+	.subscribe_newsletter .newsletter_txt h3 { 
+	    font-size: 22px;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="text"]{
+		height: 53px;
+	}
+	.recent_news_area2 .carousel-control.left span, 
+	.recent_news_area2 .carousel-control.right span {
+	    width: 120px;
+	    height: 120px; 
+	}
+	.recent_news_area2 .left.carousel-control, 
+	.recent_news_area2 .right.carousel-control { 
+	    right: 120px;
+	}
+	.solution_area .solution_area_txt p {
+	    font-size: 16px;
+	    line-height: 26px; 
+	}	
+	.recent_news_area2 .share_bx { 
+	    top: -147px;
+	}	
+	.recent_news_area2 .share_bx .share_bx_up { 
+	    padding: 35px 40px 15px 40px;
+	}
+	.recent_news_area2 .share_bx .share_bx_down { 
+	    padding: 0 20px 0 0;
+	}
+	.recent_news_area2 .share_bx .share_bx_down h6 {
+	    padding: 20px 0px 20px 12px;
+	}
+	.share_bx .social_icon img{
+		margin-right: 8px !important;
+		margin-top: 8px !important;
+	}
+	.more_ideas_area ul li .ideas_overlay h3 { 
+	    font-size: 16px; 
+	    line-height: 21px; 
+	    font-weight: 600;
+	}
+	.recent_news_area2 {
+	    padding: 50px 0px 40px 0px;
+	}
+}
+@media screen and (max-width: 1130px) {
+	.banner2_area .banner2_txt h1 { 
+	    font-size: 26px;
+	    line-height: 40px;
+	}
+	.solution_area .solution_area_txt { 
+	    padding: 30px 30px 0 40px;
+	}
+	.solution_area .solution_area_txt h3 { 
+	    font-size: 20px;
+	    font-weight: 400;
+	}
+	.solution_area .solution_area_txt h1{
+		font-size: 30px;
+	}
+	.solution_area .solution_area_txt p {
+	    font-size: 15px;
+	    line-height: 26px;
+	}
+	.services_area {
+	    padding: 80px 0px 70px; 
+	}
+	.services_area ul li .serv_des p {
+	    font-size: 15px; 
+	    line-height: 25px;
+	}
+	.traders_area .traders_area_txt .services_area ul li{
+		margin-bottom: 0;
+	}
+	.featured_area {
+	    padding: 90px 0px 70px;
+	}
+}
+@media screen and (max-width: 1055px) {
+	.solution_area .solution_area_txt p {
+	    font-size: 14px;
+	    line-height: 25px;
+	}
+	.testimonial_area {
+	    padding: 70px 0px 50px;
+	    min-height: 400px;
+	}
+	.recent_area ul li h4 { 
+	    font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.services_area {
+	    padding: 60px 0px 50px;
+	}
+	.services_area ul li .serv_des p{
+		font-size: 16px;
+	}
+	.services_area ul li{
+		width: 33%;
+	}
+	.overall_progress_chart .progress_graph {
+	    width: 56%; 
+	    margin-right: 4%;
+	}
+	.overall_progress_chart .progress_graph_report ul li .graph_des p {
+	    line-height: 20px;
+	    margin-bottom: 10px;
+	}
+	.subscribe_newsletter { 
+	    padding: 60px 0px; 
+	}
+	.page-id-94 .res-pad2 .about_area {
+	    padding-bottom: 68px !important;
+	}
+	.overall_progress_chart .progress_graph_report ul {
+	    list-style: none;
+	    margin-bottom: 15px;
+	}
+	.overall_progress_chart .progress_graph_report {
+	    width: 40%; 
+	} 
+	.overall_progress_chart .progress_graph_report h3 {
+	    font-size: 22px;
+	    margin: 7px 0px 12px; 
+	}
+	.progress_graph_report a.cmn_btn2 {
+	    padding: 10px 30px;
+	}
+	.footer-widgets.widget_media_gallery .gallery .gallery-item .gallery-icon{
+		padding-top: 0;
+	}
+	.navigation_area .nav.navbar-nav { 
+	    min-width: 800px;
+	}
+	.banner2_area .banner2_txt {
+	    padding-top: 14%;
+	    margin-left: 88px;
+	}
+	.banner2_area .banner2_txt h1 {
+	    font-size: 20px; 
+    	line-height: 30px;
+	}
+	.banner2_area .banner2_txt h2 {
+	    font-size: 35px; 
+	}
+	.page-head-area {
+	    top: -56px;
+	}
+	#hbanner,
+	.hslider {
+	    margin-top: -55px !important;
+	}
+	.banner_area .banner_txt { 
+	    padding-top: 120px;
+	}
+	.banner_area {
+	    min-height: 470px;
+	    margin-bottom: 0;
+	    background-size: 100% 100% !important;
+	    background-repeat: no-repeat !important;
+	}
+	#bs-example-navbar-collapse-1 {
+	    position: relative;
+	    top: 0;
+	} 
+	.navigation_area .navbar-nav > li > a { 
+	    padding: 15px;
+	}
+	.solution_area .solution_area_txt {
+	    width: 55%;
+	    padding: 20px 20px 10px 50px;
+	}
+	.solution_area .solution_area_txt h1 { 
+	    font-size: 30px; 
+	    margin: 8px 0px;
+	}
+	.solution_area .solution_area_txt p { 
+	    font-size: 15px;
+	    line-height: 24px; 
+	    margin: 14px 0px 5px;
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx h2 { 
+	    font-size: 13px; 
+	    line-height: 18px;
+	}
+	.solution_area .solution_area_videobox {
+	    width: 45%;
+	    padding: 0;
+	} 
+	.page-id-94 .about_area {
+	    padding-bottom: 90px;
+	}
+	.portfolio_area .tab-content{
+		width: 85%;
+    	float: right;
+	}
+	.canvasjs-chart-canvas {
+		width: 650px; 
+	}
+	footer .footer_sec1 ul li { 
+		width: 100%; 
+	} 
+	.solution_area { 
+		margin-top: 0;
+	}
+	.traders_area {
+		padding: 80px 0px 60px 0px;
+	}
+	.benefits_area { 
+		padding-bottom: 0;
+	}
+	.recent_news_area2 {
+		padding: 80px 0px 0px 0px;
+	}
+	.w36, .w27 {
+	    width: 50% !important;
+	    float: left;
+	    min-height: 460px !important;
+	}
+	.w27{
+		margin-top: 30px;
+	}
+	.about_area { 
+	    padding: 90px 0px 80px; 
+	}
+	.social_area .social_area_lft,
+	.social_area .social_area_rht {
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	}
+	.social_area .social_area_rht {
+    	margin: 12px 0 0 0;
+	}
+	.portfolio_area .portfolio_img{
+		padding-left: 0;
+	}
+	.vc_custom_1532361234280.sec-news2{
+		padding-top: 90px !important;
+	}
+	.benefits_area .benefits_bx p{
+		font-size: 15px;
+	}
+
+}
+
+/*..........768px to 992px css start here.........*/
+
+@media screen and (max-width:1015px){
+	.solution_area .solution_area_txt { 
+	    padding: 15px 20px 10px 40px;
+	}
+	.solution_area .solution_area_txt .blue_quoto_bx {
+	    margin: 7px 0px 12px 0px;
+	}
+}
+@media screen and (max-width:992px){
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 {
+	    padding: 16px 15px !important;
+	}
+	.featured_area {
+	    padding: 80px 0px 70px !important;
+	}
+	.page-head-area {
+	    top: -56px;
+	}
+	.hslider {
+	    margin-top: -50px !important;
+	}
+	#bs-example-navbar-collapse-1 {
+	    position: relative;
+	    top: 0;
+	}
+	.navigation_area .navbar-nav > li > a {
+	    padding: 15px;
+	}
+	#srch{
+		top:65px;
+	}
+	.navigation_area .navbar.navbar-inverse{
+		z-index: 99999999;
+	}
+	.navigation_area .nav.navbar-nav li{
+		display: inline-block;
+		float: left;
+	}
+	.about_area, .featured_area, .get_quote_area, .portfolio_area, .overall_progress_chart, .recent_area, .pricing_area, .subscribe_newsletter, .recent_news_area, footer{padding:50px 15px}
+	.navigation_area li.blank_li_nav{display:none} 
+	.banner_area .banner_txt{margin-left:0px}
+	.services_area ul li figure{width:50px; margin-right:20px}
+	.services_area ul li .serv_des h3{font-size:16px}
+	.about_area ul li{
+		width: 34%;
+		margin-top: 20px;
+	}
+	.featured_area .featured_lft h2{font-size:24px}
+	.featured_area .featured_lft h4{margin:10px 0px; font-size:15px}
+	.featured_area .featured_rht ul li .featured_overlay{padding:10px}
+	.featured_area .featured_lft p{line-height:normal}
+	.get_quote_area .quote_btn a.cmn_btn2{ padding:16px 35px;}
+	.get_quote_area .quote_btn a.cmn_btn1{padding:14px 35px !important}
+	.get_quote_area .quote_txt h4{font-size:19px}
+	.portfolio_area .portfolio_thumbnail span{width:130px; height:150px; background:#fff}
+	.portfolio_area .social_area .social_area_lft, .social_area .social_area_rht{width:100%; margin-bottom:20px}
+	.portfolio_area .progress_bar_area{margin:20px 0px}
+
+	.overall_progress_chart .progress_graph{width:56%}
+	.overall_progress_chart .progress_graph_report{width:40%; float:right}
+
+	.recent_area ul li{width:31.5%; margin:.5%}
+
+	.testimonial_area #quote-carousel .carousel-indicators li{width:100px; height:100px}
+	.testimonial_area #quote-carousel .carousel-indicators li.active{width:150px; height:100px}
+	.testimonial_area #quote-carousel .carousel-indicators{left:30%; width:100%}
+	.testimonial_area .item_bx{ background-size:100% auto}
+	.testimonial_area #quote-carousel .carousel-indicators .active h3{font-size:16px}
+	.testimonial_area #quote-carousel .carousel-indicators .active h6{font-size:11px}
+
+	.pricing_area .pricing_tbl .price_bx{width:226px;}
+	.pricing_area .pricing_tbl ul{margin:36px}
+	.pricing_area .pricing_tbl .price_bx .pricing_head .price_overlay{margin:36px}
+	.pricing_area .pricing_tbl .price_bx .pricing_head{height:166px}
+
+	.recent_news_area ul li .news_overlay{
+		height: 130px;
+		padding:10px 5px;
+	}
+	.recent_news_area ul li .news_overlay h4{font-size:14px}
+
+	.subscribe_newsletter .newsletter_frm input[type="text"]{
+		padding: 0px 15px;
+	}
+	.subscribe_newsletter .newsletter_frm input.cmn_btn1{
+		padding: 16px 30px !important;
+	}
+
+	footer .footer_sec1{padding-right:10px}
+	footer .footer_sec2{padding:0px 10px}
+	footer .footer_sec3{padding:0px 10px}
+	footer .footer_sec3 ul li figure{width:50px; height:50px;line-height: 45px}
+	footer .footer_sec2 ul li{width:28.2%}
+	footer .footer_sec2 .businessPhoto ul li:nth-child(4), footer .footer_sec2 .businessPhoto ul li:nth-child(6){top:-25px}
+
+	.project_detl_wrapper .prjct_detl_left{width:100%}
+	.side_bar_wrapper{text-align:center}
+	.side_bar_wrapper .sidebar{width:100%; max-width:700px; float:none; display:inline-block}
+	.sidebar_bx { margin-bottom: 50px;width: 350px;display: inline-block;float: left; margin: 20px 20px;}
+	.post_bx{text-align:left}
+
+	.blog_detl_wrapper .blog_detl_left{width:100%; padding:0px 20px}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx{padding:14px; margin-bottom:30px}
+	.blog_detl_wrapper .blog_detl_left .leave_cmnt_bx{text-align:center}
+	.blog_detl_wrapper .blog_detl_left .leave_cmnt_bx ul li{width:48%; margin:.5%}
+	.blog_detl_wrapper .blog_detl_left .form_txt_msg{width:97%}
+		
+	.contact_wrapper{padding-top:0px}
+	.contact_wrapper .addres_area{text-align:center}
+	.contact_wrapper .addres_area .addres_area_txt{width:100%; max-width:740px; display:inline-block; float:none; text-align:left}
+	.contact_wrapper .addres_area .addres_area_txt .addres_in{ width:30%; margin:1%; float:left; padding:0px}
+	.contact_wrapper .cntct_heading{padding:30px}
+
+	.partner_area .partner_bxs{padding:0px 20px}
+	.partner_area .partner_bxs .partner_bx_1 .partner_bx_1_txt{width:60%; padding:20px; float:left}
+
+	.team_wrapper .team_area{text-align:center}
+	.team_wrapper .team_area .team_bx{width:46%; max-width:280px}
+
+	.service_details_wrapper .services_details_area .srvc_detl_bx{padding:0px}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_img{width:40%}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt .srvc_detl_bx_in .srvc_detl_bx_in_img{width:80px}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt{padding:0px}
+	.service_details_wrapper .services_details_area .srvc_detl_heading{padding:40px 0px 0px}
+
+	.contact_wrapper .addres_area .addres_area_img{width:100%}
+
+	.portfolio_listing ul li .featured_overlay{padding:20px 10px}
+	.portfolio_listing ul li .featured_overlay h3{margin:5px 0px; font-size:14px;}
+	.portfolio_listing ul li .featured_overlay .feat_btn_area a.btn_first{width:120px}
+
+	.portfolio3_area .portfolio_listing ul li{width:32.5%; margin:0 1% 1% 0;}
+	.portfolio3_area .portfolio_listing ul li:first-child{ width:66%}
+	.portfolio3_area .portfolio_listing ul li:last-child{ width:66%}
+
+	.portfolio_wrapper .nav > li > a{padding:20px 32px}
+
+	.progress_bar_area .progress .progress_overlay span{padding:0px 5px}
+
+	.more_ideas_area ul{    
+		width: 100%;
+    	display: inline-block;
+    	padding: 0 15px;
+    }
+	.more_ideas_area ul li{float:left; width:32%}
+	.more_ideas_area ul li .ideas_overlay h4{padding:0px}
+	.more_ideas_area ul li .ideas_overlay{margin:0px; padding:0px}
+
+	.solution_area{text-align:center}
+	.solution_area .solution_area_txt{width:100%; text-align:center;padding: 80px 20px 50px 50px;} 
+	.solution_area .solution_area_videobox{width:500px;display:inline-block; float:none}
+
+	.home2_portfolio_area .site_section_area{float:none; text-align:center}
+	.home2_portfolio_area .nav.nav-tabs{float:none; padding:0px}
+
+	.traders_area .traders_area_img{width:30%; margin-top:0px}
+	.traders_area .traders_area_txt .services_area ul li{width:48%; margin-top:15px}
+
+	.benefits_area .benefits_bx .benefits_head h3{font-size:22px}
+	.benefits_area .benefits_bx .benefits_head h5{font-size:11px}  
+	.benefits_bx.benefits_bx3 .cmn_btn1{padding:16px 30px}
+	.benefits_bx3 ul li figure{width:40px; height:40px;}
+
+	.recent_news_area2 .carousel-control.left span{width:120px; height:90px; line-height:90px}
+	.recent_news_area2 .carousel-control.right span{width:120px; height:90px; line-height:90px}
+	.recent_news_area2 .carousel-control {
+	    width: 0;
+	    bottom: 34% !important;
+	}
+	.recent_news_area2 .share_bx{top:0px; margin-bottom:0px; width:90%}
+	.recent_news_area2 .left.carousel-control, .recent_news_area2 .right.carousel-control{right:120px}
+
+	.vc_custom_1532361200942.sec-recent-pro {
+	    padding-top: 50px !important;
+	    padding-bottom: 10px !important;
+	}
+	.pricing_area {
+	    padding: 20px 0 100px;
+	}
+	.recent_news_area.sec {
+	    padding-bottom: 0;
+	    padding-top: 0;
+	}
+	.navigation_area .nav.navbar-nav {
+	    min-width: 740px;
+	}
+	.about_wrapper .abt_rht { 
+	    padding-top: 20px;
+	}
+	.testimonial_area {
+	    padding: 40px 0px 30px;
+	    min-height: 380px;
+	}
+
+}
+@media screen and (max-width: 960px) {
+	.overall_progress_chart .progress_graph_report {
+	    width: 46%; 
+	}
+	#srch {
+	    top: 50px;
+	} 
+	.pricing_area .pricing_tbl .price_bx .pricing_head { 
+	    width: 226px;
+	}
+	.pricing_area .pricing_tbl ul {
+	    margin: 35px 25px;
+	}
+	.recent_news_area ul li .news_overlay h6 { 
+	    font-size: 12px;
+	}
+	.recent_news_area ul li .news_overlay h4{
+		font-weight: 600;
+	}
+	.recent_news_area ul li .news_overlay{
+		top:-70px;
+	}
+	.pricing_area {
+	    padding: 10px 15px 100px !important;
+	}
+	.banner2_area .banner2_txt {
+     	padding-top: 16%;
+    	margin-left: 50px;
+	}
+	.navigation_area .nav.navbar-nav {
+	    min-width: 650px;
+	    padding-left: 15px;
+	}
+	.navigation_area .nav.navbar-nav li { 
+	    float: left;
+	}
+	.banner2_area .banner2_txt h1 { 
+	    line-height: 35px;
+	}
+	.get_quote_area .quote_btn a.cmn_btn2 {
+	    padding: 12px 22px;
+	}
+	.get_quote_area .quote_btn a.cmn_btn1 {
+	    padding: 8px 25px !important;
+	} 
+	.traders_area .traders_area_img {
+	    width: 100%;
+	    margin-top: 0px;
+	} 
+	.traders_area .traders_area_img img {
+	    margin: 0 auto;
+		max-width: 300px;
+		display: block;
+	}
+	.traders_area .traders_area_txt {
+	    width: 100%;
+	}
+	.traders_area .traders_area_txt .services_area ul li {
+	    width: 50%;
+	    margin-top: 15px;
+	}
+	.services_area ul li .serv_des h3 {
+	    font-size: 18px;
+    	line-height: 22px;
+	}
+	.pd190 .about_area {
+	    padding: 110px 0px 160px;
+	}
+	.services_area ul li .serv_des p {
+	    font-size: 15px;
+    	line-height: 22px;
+	}
+	#hbanner,
+	.hslider {
+	    margin-top: -50px !important;
+	}
+	#bs-example-navbar-collapse-1 {
+	    position: relative;
+	    top: 0;
+	}
+	.navigation_area .navbar-nav > li > a {
+	    padding: 12px; 
+	} 
+	.navigation_area .navbar-nav > li .dropdown-menu li > a { 
+     	width: 200px;
+	} 
+	.banner2_area .banner2_txt ul { 
+	    margin-top: 20px;
+	}
+	.banner2_area .banner2_txt h2 {
+		font-size: 30px; 
+		margin-bottom: 0px;
+	}
+	.portfolio_area .tab-content .tab-pane .portfolio_img img {
+		max-width: 100%;
+	}
+	.canvasjs-chart-canvas {
+		width: 100%; 
+	}
+	.recent_news_area.sec{
+		padding: 0 !important;
+	}
+	.benefits_area .benefits_bx {
+		width: 100% !important;
+	} 
+
+	.solution_area .solution_area_videobox{
+		margin-bottom: -5px;
+	}
+	.res-pad2 .about_area {
+	    padding: 80px 0px 150px !important;
+	}
+	.page-id-63 .res-pad2 .about_area {
+	    padding: 80px 0px !important;
+	}
+	#pd40.res-pad2 {
+	    margin-top:-100px !important;
+	    padding-bottom: 80px !important;
+	}
+	.solution_area .solution_area_txt { 
+	    padding: 60px 20px 50px 50px;
+		width: 600px;
+		margin: 0 auto !important;
+		float: none;
+	}
+	.banner2_area .banner2_txt ul li {
+	    font-size: 14px; 
+	} 
+	.carousel-inner {
+	    position: relative;
+	    width: 750px; 
+	}
+	.traders_area {
+	    padding: 60px 0px 50px 0px;
+	}
+	.benefits_area {
+	    padding: 60px 0px 60px;
+	}
+	.recent_news_area2 {
+	    padding: 50px 0px 0px 0px;
+	}
+	.recent_news_area2 .share_bx {
+	    top: -122px;
+	    margin-bottom: 0px;
+	    width: 42%;
+	}  
+	.recent_news_area2 .share_bx .share_bx_up {
+	    background-color: #FFF;
+	    padding: 20px 20px 5px 20px;
+	}
+	.recent_news_area2 .share_bx .share_bx_down h6 { 
+	    padding: 20px 0px 20px 15px; 
+	}
+	.recent_news_area2 .carousel-inner img { 
+	    margin-top: 8px; 
+	}
+	.recent_news_area2 .share_bx .share_bx_up h2{
+		font-size: 16px;
+		padding: 0;
+	}
+	.recent_news_area2 .carousel-control.right span,
+	.recent_news_area2 .carousel-control.left span {
+	    width: 100px;
+	    height: 75px; 
+	}
+	.subscribe_newsletter .newsletter_txt h3 { 
+	    font-weight: 600;
+	    font-size: 18px;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 { 
+	    padding: 14px 20px !important; 
+	}
+	.subscribe_newsletter .newsletter_frm input[type="text"] { 
+	    line-height: 50px; 
+	    height: 50px; 
+	}
+	.solution_area .solution_area_txt p {
+		line-height: 28px;
+    	font-size: 16px;
+	}
+	#carousel-example-generic{
+		width:800px;
+   		height: 500px;
+	}
+	.recent_news_area2 .left.carousel-control, .recent_news_area2 .right.carousel-control {
+	    right: 150px;
+	    bottom: 100px !important;
+	} 
+	.testimonial_area { 
+	    padding: 40px 0px 40px; 
+	}
+	.item_bx { 
+	    padding: 0px 50px; 
+	}
+	.vc_custom_1531893143525.res-pad2 {
+	    padding-top: 60px !important;
+	    padding-bottom: 70px !important; 
+	}
+	footer {
+		padding-top: 50px;
+	}
+	.w36, .w27 {
+	    width: 50% !important;
+	    float: left !important;
+	    min-height: 450px !important;
+	}
+	.benefits_area {
+	    padding: 0;
+	}
+	.benefits_area .benefits_bx .benefits_head h3 {
+	    font-size: 20px;
+	}
+	.footer-widgets {
+	    width: 100%;
+	    display: block;
+	    overflow: hidden;
+	    margin-bottom: 80px;
+	    background:none !important;
+	}
+	footer .container{
+		max-width: 500px;
+	}
+	footer .footer_sec1 ul li {
+	    width: 49%;
+	}
+	footer .footer-widgets:nth-child(2) {
+	    padding: 0;
+	}
+	.footer-widgets.widget_media_gallery .gallery { 
+	    max-width: 320px;
+	}
+	.footer-widgets.widget_media_gallery .gallery .gallery-item .gallery-icon {
+	    padding-top: 17px;
+	}
+	.footer-widgets {
+	    width: 100% !important;
+	    display: block;
+	    overflow: hidden;
+	    display: block;
+	    clear: both;
+		margin-top: 60px !important;
+		margin-bottom: 6px !important;
+	}
+	footer .footer_sec1 ul li { 
+	    margin: 0px 0px 20px;
+	    height: 50px; 
+	}
+	.about_area ul{ 
+	    margin-top: 30px;
+	}
+	.about_area ul li { 
+	    margin-top: 30px;
+	}
+	footer .footer_sec1 ul li:last-child { 
+	    margin: 0px 0px 0; 
+	}
+	.vc_custom_1532361200942.sec-recent-pro {
+	    padding-top: 60px !important;
+	    padding-bottom: 20px !important;
+	}
+	.vc_custom_1532361219185.sec-pricing {
+	    padding-top: 90px !important; 
+	}
+	.overall_progress_chart .progress_graph {
+	    width: 55%;
+	}
+	.overall_progress_chart .progress_graph_report {
+	    width: 40%;
+	}
+	.recent_area {
+	    padding-top: 10px !important;
+	}
+	.page-head-area {
+	    top: -51px;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.banner2_area .banner2_txt {
+	    padding-top: 14%;
+	    margin-left: 60px;
+	}
+	.banner2_area .banner2_txt h1{
+		font-size: 22px;
+	}
+	.banner2_area .banner2_txt h2 {
+		font-size: 27px;
+		margin-bottom: 10px;
+	}
+	.navigation_area .navbar-nav > li > a {
+	    padding: 8px !important;
+	} 
+	.banner2_area .banner2_txt ul li { 
+		margin: 5px 0px;
+	}
+	.about_area{
+		padding-top: 0;
+	}
+	.get_quote_area{
+		padding-top: 50px;
+	}
+	.footer-widgets{
+		width: 100%;
+		float: none;
+	}
+	footer .footer-widgets:nth-child(2){
+		padding: 0;
+	}
+	.slickr-flickr-gallery ul{
+		max-width: 300px;
+	}
+	footer .footer-widgets:nth-child(1), footer .footer-widgets:nth-child(2){
+		background:none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	footer .container {
+	    width: 320px;
+	}
+	.testimonial_area{
+		min-height: 410px;
+	}
+
+	footer .footer_sec3,
+	footer .footer_sec1{
+		width: 100%;
+	}
+	.gallery-columns-3 .gallery-item {
+    	max-width: 100px !important;
+	}
+	.footer-widgets.widget_media_gallery .gallery { 
+	    width: 300px;
+	}
+	.footer-widgets {
+	    width: 100%;
+	    float: none;
+	    overflow: hidden;
+	    clear: both;
+	    display: block;
+	    margin-bottom: 30px !important;
+	} 
+	footer .footer_sec1 { 
+	    padding-bottom: 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	footer .footer_sec1 { 
+	    padding-bottom: 30px !important;
+	}
+	footer .footer_sec1 ul li {
+	    margin: 0px 0px 30px; 
+	}
+	.search-icon{
+		display: none;
+	}
+	.blog_detl_wrapper .blog_detl_left .share_bx{
+		min-width: inherit;
+	}
+	.sidebar_bx.widget_media_gallery .gallery{
+		max-width: 320px; 
+		margin:0 auto;
+	}
+	.footer-widgets.widget_media_gallery .gallery{    
+		max-width: 300px;
+    	margin: 0 auto 30px;
+	}
+	.sidebar_bx.widget_media_gallery .gallery .gallery-item .gallery-icon {
+	    padding-top: 10px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff !important;
+		width: 100%;
+		text-align: center;
+	}
+ 
+	#envestpro-lite-main-nav li.open .dropdown-menu > li a.active,
+	#envestpro-lite-main-nav li.open .dropdown-menu > li a:hover {
+		background: #000 !important;
+	}
+	.navigation_area .navbar-nav li a:hover, .navigation_area .navbar-nav li a.active {
+	    background: #000;
+	    color: #fff;
+	}
+	.header_logo_area .logo_area {
+		width: 200px;
+		margin: 0 10px !important;
+		float: none;
+	}
+	.footer_head{
+		text-align: center;
+	}
+	.slickr-flickr-gallery ul{
+		width: inherit !important; 
+		margin: 0 auto !important;
+	} 
+	.overall_progress_chart .progress_graph_report {
+		width: 100%;
+		margin-top: 50%;
+	}
+	.recent_news_area.sec ul li {
+		margin: 3% 1.5% 0% !important;
+	}
+	.home2_portfolio_area .nav.nav-tabs {
+		float: none; 
+	}
+	.w36, .w27 {
+		width: 100% !important;
+	}
+	.recent_news_area2 .carousel-inner img { 
+		margin-top: 8px; 
+	}
+	.vc_custom_1532361200942.sec-recent-pro {
+	    padding-top: 80px !important;
+	    padding-bottom: 0px !important;
+	}
+	.vc_custom_1532361219185.sec-pricing {
+	    padding-top: 80px !important; 
+	} 
+	.vc_custom_1532361234280.sec-news2 {
+	    padding-top: 80px !important; 
+	}
+	.vc_custom_1532361219185.sec-pricing .pricing_tbl .price_bx .pricing_head {
+	    width: 270px; 
+	    height: 175px;
+	}
+	.benefits_bx3 ul {
+		max-width: 270px;
+		display: block;
+		margin: 0 auto;
+	}
+	.benefits_bx3 ul li .ben_des {
+		max-width: 300px;
+	}
+	.portfolio_wrapper {
+		padding-bottom: 0 !important;
+	}
+	.benefits_area .benefits_bx p {
+		text-align: left !important;
+	}
+	#srch { 
+		right: 25%;
+	}
+	.recent_news_area2 .carousel-inner img { 
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.recent_area {
+	    max-width: 380px;
+	    margin: 0 auto;
+	}
+}
+@media screen and (max-width: 600px) {
+	.recent_area {
+	    max-width: 370px;
+	    margin: 0 auto;
+	}
+	.search-icon{
+		display: none;
+	}
+	.portfolio_wrapper{
+		padding-bottom: 0 !important;
+	}
+	.portfolio_area .tab-content {
+		width: 100% !important; 
+	}
+}
+ 
+
+/*..........200px to 767px css start here.........*/
+
+@media screen and (min-width:200px) and (max-width:767px){
+	.navbar-nav{margin:0px}
+	.navigation_area .navbar-nav > li > a{ padding:10px 20px !important; border-bottom:1px solid #ccc}
+	.navigation_area li.blank_li_nav{display:none}
+	.about_area, .featured_area, .get_quote_area, .portfolio_area, .overall_progress_chart, .recent_area, .pricing_area, .subscribe_newsletter, .services_area, .recent_news_area, footer{padding:40px 20px}
+
+	.header_top_area .top_lft{width:100%; text-align:center}
+	.header_top_area .top_rht{width:100%; text-align:center}
+	.banner_area{top:0px; margin-bottom:0px;}
+	.navigation_area .nav.navbar-nav{width:100%}
+	.header_logo_area .social_icon{position:absolute; top:90px; left:10px; z-index:999999999; width:140px;}
+	.header_logo_area .cart_area{position:absolute; top:24px; right:12px; width:150px}
+	.header_logo_area .logo_area{width:200px;}
+	.navbar-header {background: #f5f5f5;border-bottom:1px solid #ccc}
+	.navbar-toggle{background:#222}
+
+	.banner_area .banner_txt{height:auto; padding:30px 20px; margin-left:0px;}
+	.services_area{text-align:center}
+	.services_area ul li{width:70%; margin-right:0px;}
+	.services_area ul li .serv_des{text-align:left}
+
+	.featured_area .featured_lft{width:100%; text-align:center; padding:0px;}
+	.featured_area .featured_rht{width:100%; text-align:center}
+	.featured_area .featured_rht ul li{width:48.5%}
+	.featured_area .featured_rht ul li .featured_overlay{padding:8% 20px}
+
+	.get_quote_area .quote_txt{width:100%; text-align:center}
+	.get_quote_area .quote_btn{width:100%; text-align:center;margin-top:20px;}
+
+	.portfolio_area .portfolio_thumbnail{display:none}
+	.portfolio_area .portfolio_img{width:100%; text-align:center;}
+	.portfolio_area .portfolio_img img{ max-width:200px}
+	.portfolio_area .portfolio_des{width:100%; text-align:center}
+
+	.overall_progress_chart .progress_graph{width:100%; text-align:center}
+	.overall_progress_chart .progress_graph_report{width:100%}
+
+	.progress_bar_area .progress .progress_overlay span{text-align:left}
+
+	.recent_news_area ul li{width:300px; margin:0px; max-width:100%}
+	.recent_news_area ul li .news_overlay{padding:20px 20px}
+
+	.testimonial_area{
+		padding: 50px 0px 0px 0px;
+    	min-height: 340px;
+	}
+	.item_bx p{
+		padding:0;
+	}
+	.pricing_area .pricing_tbl .price_bx{margin:0px; margin-bottom:40px}
+	.testimonial_area #quote-carousel .carousel-indicators{
+		width: 100%;
+		left: 30%;
+		margin-top: 100px;
+		height: 80px;
+	}
+	.testimonial_area #quote-carousel .carousel-indicators li{width:50px; height:50px}
+	.testimonial_area #quote-carousel .carousel-indicators li.active{ position:absolute; left:0%; top:-120px; text-align:center; width:100%; height:120px !important}
+
+	.subscribe_newsletter{text-align:center}
+	.subscribe_newsletter .newsletter_txt{width:100%; text-align:center}
+	.subscribe_newsletter .newsletter_frm{width:90%; float:none; display:inline-block; margin-top:20px;}
+
+	footer .footer_sec1{width:100%; text-align:center;  padding:0px; background:none}
+	footer .footer_sec2{width:100%; text-align:center;  padding:0px; background:none}
+	footer .footer_sec2 ul {margin-top: 40px;width: 300px;display: inline-block;}
+	footer .footer_sec3{width:inherit;max-width: 300px;float:inherit; text-align:left; margin:40px auto !important; padding:40px 0 0 0}
+	footer .footer_sec3 ul{max-width:300px; display:inline-block}
+	footer .footer_sec3 ul li{width:266px; display:inline-block}
+	.portfolio_wrapper .cmn_btn1 {
+	    margin-top: 30px;
+	}
+	.page-head-area{top:-52px}
+	.page-head-area h1{font-size:28px}
+
+	.project_detl_wrapper{padding:0px 10px}
+	.project_detl_wrapper .prjct_detl_left{width:100%}
+	.project_detl_wrapper .prjct_detl_left .progress_bx{padding:0px}
+	.project_detl_wrapper .prjct_detl_left .cmpny_bgning_bx .bgning_bx_txt{width:100%}
+	.project_detl_wrapper .prjct_detl_left .progress_bx .growth_bx .growth_bx_1{width:100%}
+	.project_detl_wrapper .prjct_detl_left .cmpny_bgning_bx .bgning_bx_img{width:100%; float:none; text-align:center; margin-bottom:20px}
+	.project_detl_wrapper .prjct_detl_left .progress_bx{padding:6px}
+
+	.side_bar_wrapper{text-align:center}
+	.side_bar_wrapper .sidebar {width: 100%;float: none;max-width: 394px;display: inline-block; text-align:left}
+	.side_bar_wrapper .sidebar_head{text-align:center}
+	.side_bar_wrapper .businessPhoto{text-align:center}
+	.side_bar_wrapper .businessPhoto ul{ width:270px; display:inline-block}
+	.side_bar_wrapper .tags{text-align:center}
+
+	.blog_detl_wrapper{padding:90px 20px}
+	.blog_detl_wrapper .blog_detl_left{width:100%}
+	.blog_detl_wrapper .blog_detl_left .quote_bx{padding:30px}
+	.blog_detl_wrapper .blog_detl_left .share_bx{top:0px; margin-bottom:30px;}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_up{padding:20px}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_up h2{margin:15px 0px 0px}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_down span {padding: 0px 5px;}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_down h6{float:none; text-align:center; padding:20px 0px}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_down img{float:none; margin:0px 0px 20px}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx .advantage_bx_1{width:100%}
+	.blog_detl_wrapper .blog_detl_left .author_about_bx .author_about_img{float:none; display:inline-block;}
+	.blog_detl_wrapper .blog_detl_left .author_about_bx .author_about_txt{width:100%; text-align:center; padding:0px;}
+	.blog_detl_wrapper .blog_detl_left .author_about_bx .author_about_txt h2{margin:0px; display:block; margin-bottom:20px;}
+	.blog_detl_wrapper .blog_detl_left .author_about_bx .author_about_txt p{text-align:center}
+
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx{text-align:center}
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx .cmnt_bx .cmnt_bx_img{float:none; display:inline-block; width:120px;}
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx .cmnt_bx .cmnt_bx_txt{width:100%; text-align:center; padding:0px} 
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx .cmnt_bx:nth-child(3){margin:20px 0px; width:100%; padding:20px}
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx .cmnt_bx .cmnt_bx_txt ul li h2{margin:15px 0px}
+	.blog_detl_wrapper .blog_detl_left .post_cmnt_bx .cmnt_bx{padding:20px}
+
+	.blog_detl_wrapper .blog_detl_left .advantage_bx{padding:20px}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx .advantage_bx_1_icon{width:55px; height:55px;}
+	.blog_detl_wrapper .blog_detl_left .advantage_bx p{ text-align:left}
+
+	.blog_detl_wrapper .blog_detl_left .leave_cmnt_bx{text-align:center}
+	.blog_detl_wrapper .blog_detl_left .leave_cmnt_bx ul li{width:100%}
+
+	.contact_wrapper{padding:100px 20px 0px 20px}
+	.contact_wrapper .addres_area{text-align:center}
+	.contact_wrapper .addres_area .addres_area_txt{width:100%; max-width:360px; padding-top:0px; display:inline-block; float:none; text-align:left}
+	.contact_wrapper .cntct_heading{padding:20px}
+	.contact_wrapper .cntct_form ul li{width:100%}
+
+	.partner_area .partner_head{padding:0px 20px}
+	.partner_area .partner_bxs .partner_bx_1 .partner_bx_1_img{float:none}
+	.partner_area .partner_bxs .partner_bx_1 .partner_bx_1_txt{float:none; padding:30px; width:100%; text-align:center}
+
+	.team_wrapper .team_area{text-align:center}
+	.team_wrapper .team_area .team_bx{width:46%}
+
+	.service_details_wrapper .services_details_area{padding:0px 20px}
+	.service_details_wrapper .services_area{padding:0px 0px}
+	.service_details_wrapper .services_details_area .srvc_detl_bx{padding:0px}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_img{float:none; width:100%; text-align:center}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt{width:100%}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt .srvc_detl_bx_in .srvc_detl_bx_in_txt{width:100%; text-align:center}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt .srvc_detl_bx_in .srvc_detl_bx_in_img{float:none; text-align:center;display:none;}
+	.service_details_wrapper .services_details_area .srvc_detl_bx .srvc_detl_bx_txt p{text-align:center} 
+	.service_details_wrapper .services_details_area .srvc_detl_heading p{margin-bottom:40px}
+
+
+	.contact_wrapper .addres_area .addres_area_img{width:100%}
+
+	.portfolio_wrapper{padding:30px 20px}
+	.portfolio_wrapper .nav-tabs > li{width:100%}
+	.portfolio_listing ul li{width:100%}
+
+	.portfolio4_area .portfolio_listing ul li{width:100%}
+
+	.portfolio1_area .portfolio_listing ul li{width:100%; margin:10px 0px}
+
+	.portfolio3_area .portfolio_listing ul li{overflow:hidden}
+
+	.portfolio3_area .portfolio_listing ul li:nth-child(1)>img, .portfolio3_area .portfolio_listing ul li:nth-child(5) > img{ height:200px; width:auto; transform:scale(1.5,1)}
+
+	.team_p_lft, .team_p_rht{ width:100%}
+	.progress_bar_area .progress .progress_overlay span{padding:0px 5px}
+
+
+	.banner2_area{min-height:auto; top:0px; margin-bottom:0px}
+	.banner2_area .banner2_txt{ 
+	     padding: 75px 10px;
+	    margin-left: 100px;
+	}
+	.banner2_area .banner2_txt h1{font-size:24px}
+	.banner2_area .banner2_txt h2{font-size:28px}
+	.banner2_area .banner2_txt ul li img{margin-right:0px}
+	.banner2_area .banner2_txt ul li{font-size:13px}
+
+	.more_ideas_area {
+	    width: 100%;
+	    margin: 0;
+	    padding-top: 70px;
+	}
+	.more_ideas_area ul li{width:100%; margin:0px}
+	.more_ideas_area ul li .ideas_overlay{margin:0px; padding:0px}
+	.more_ideas_area ul li .ideas_overlay h4{padding:0px}
+
+	.solution_area{padding:40px 20px; margin-top:0px}
+	.solution_area .solution_area_txt {
+		max-width: 600px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px 30px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.about_area .abt_head { 
+	    padding: 0 15px;
+	}
+	.solution_area .solution_area_txt h1{font-size:28px}
+	.solution_area .solution_area_txt p{margin-bottom:0px}
+	.solution_area .solution_area_txt input[type="button"]{margin-top:0px}
+	.solution_area .solution_area_videobox {
+		margin-left: auto;
+		display: block;
+		margin-right: auto;
+		clear: both;
+		float: inherit;
+    	margin-top: 30px; 
+	}
+
+	.home2_projects_wrapper .portfolio_wrapper{ padding:40px 20px}
+	.home2_portfolio_area .site_section_area{float:none; text-align:center}
+	.home2_portfolio_area .nav.nav-tabs{
+		padding:0px;
+	    margin-top: 40px;
+ 	}
+	.home2_portfolio_area .portfolio_listing ul li{width:100%}
+ 
+	.traders_area .traders_area_txt{
+		margin-bottom: 15px;
+		float: none;
+		display: inline-block;
+		margin-right: 0;
+	}
+	.traders_area .traders_area_txt .services_area ul li{width:100%; text-align:center; margin-top:20px}
+	.traders_area .services_area ul li figure{
+		margin-bottom:10px; 
+		float:none; display:
+		inline-block;
+     	margin-right: 0;
+    }
+	.traders_area .services_area ul li .serv_des{width:100%; text-align:center}
+	.traders_area .traders_area_img{margin-top:0px; text-align:center; float:none; width:100%}
+	.traders_area .traders_area_img img{ max-width:200px; display:inline-block}
+
+	.benefits_area{padding:0 20px}
+	.w27 {
+	    margin-top: 0px;
+	}
+	.vc_custom_1532594023213.wdgt {
+	    padding-top: 80px !important;
+	    padding-bottom: 55px !important; 
+	}
+	.traders_area .traders_area_txt .services_area ul {
+	    margin-top: 40px;
+	}
+	.traders_area {
+	    padding: 60px 0px 30px 0px;
+	}
+	.benefits_area .benefits_bx{width:100% !important; padding:0px !important}
+	.benefits_area .benefits_bx .benefits_head{text-align:center}
+	.benefits_area .benefits_bx p{text-align:center}
+	.benefits_bx3{text-align:center !important}
+	.benefits_bx3 ul{max-width:280px; display:inline-block}
+
+
+	.recent_news_area2{padding:40px 20px;}
+	.recent_news_area2 .carousel-control.right{right:60px}
+	.recent_news_area2 .carousel-control.right span{width:60px; height:60px; right:0px; line-height:80px; background-size:100px auto}
+	.recent_news_area2 .carousel-control.left span{width:60px; height:60px; left:0px; line-height:80px; background-size:100px auto}
+	.recent_news_area2 .share_bx{width:100%; top:0px; margin-bottom:0px}
+	.recent_news_area2 .share_bx .share_bx_up{padding:20px 0px}
+	.recent_news_area2 .share_bx .share_bx_up h2{padding:0px; font-size:18px;}
+	.portfolio_listing ul li .featured_overlay h3 {
+	    margin: 10px 0px;
+	    font-size: 16px;
+	}
+	.recent_news_area2 .left.carousel-control, .recent_news_area2 .right.carousel-control{top:28%}
+	.recent_news_area2 .share_bx .share_bx_down h6{ padding:20px 0px 20px 10px}
+	.recent_news_area2 .share_bx .share_bx_down h3{margin:10px 5px 10px 0px}
+
+
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.about_wrapper .abt_lft, .about_wrapper .abt_rht{width:100%; padding:0px; text-align:center }
+}
+/*..........200px to 767px css end here.........*/
+
+ 
+/*..........641px to 767px css end here.........*/
+
+/*..........580px to 767px css start here.........*/
+
+@media screen and (min-width:580px) and (max-width:767px){
+	
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.pricing_area .pricing_tbl .price_bx{width:176px}
+	.pricing_area .pricing_tbl ul{margin:14px}
+	.pricing_area .pricing_tbl .price_bx .pricing_head .price_overlay {
+	    margin: 50px 50px 50px;
+	}
+	.pricing_area .pricing_tbl .price_bx .pricing_head{height:128px}
+	.price_btn a.cmn_btn1{ padding:16px 28px;}
+	.price_btn a.cmn_btn2{ padding:16px 28px;}
+
+	.recent_area ul li{width:32%; margin:.3%}
+
+}
+
+/*..........580px to 767px css start here.........*/
+
+/*..........200px to 479px css start here.........*/
+
+@media screen and (min-width:200px) and (max-width:579px){
+	
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.site_section_area h1{font-size:24px}
+	.banner_area .banner_txt h1{font-size:30px}
+	.banner_area .banner_txt h4{font-size:14px}
+	.header_top_area .top_rht ul li{margin:0px 2px}
+	.header_logo_area .logo_area{width:140px; margin-left:10px}	
+	.services_area ul li figure{float:none; display:inline-block}	
+	.services_area ul li .serv_des{width:280px; text-align:center; float:none; display:inline-block}
+	.services_area ul li{width:280px;}
+	.about_area ul li{width: 250px;display: inline-block;}
+	.about_area .abt_head h2{font-size:26px}
+	.about_area .abt_head h3{font-size:20px}
+
+	.featured_area .featured_lft h2{font-size:26px}
+	.featured_area .featured_lft h3{font-size:20px}
+	.featured_area .featured_rht ul li{width:100%; max-width:400px;}
+	.featured_area .featured_lft h4{margin:26px 0px}
+	.featured_area .featured_rht{margin-top:20px}
+
+	.social_area .social_area_lft{width:100%;}
+	.social_area .social_area_rht{width:100%; margin-top:15px;}
+	.recent_area ul li{margin:15px 0px; max-width:100%}
+
+	.item_bx{padding:0px}
+
+	.subscribe_newsletter .newsletter_frm input.cmn_btn1[type="submit"]{padding:20px 6px; font-size:10px}
+	.subscribe_newsletter .newsletter_frm input[type="text"]{padding:0px 14px; font-size:12px;}
+
+	.overall_progress_chart .progress_graph_report{margin-top:20px}
+	.overall_progress_chart .progress_graph_report h3{font-size:24px}
+
+	.get_quote_area .quote_btn a.cmn_btn2{margin:10px}
+
+	.testimonial_area #quote-carousel .carousel-indicators{width:100%; left:30%; margin-top:100px}
+	.testimonial_area #quote-carousel .carousel-indicators li{width:50px; height:50px}
+	.testimonial_area #quote-carousel .carousel-indicators li.active{ position:absolute; left:0%; top:-120px; text-align:center; width:100%; height:120px !important}
+
+	.pagination_area li{display:none}
+	.pagination_area li:first-child, .pagination_area li:last-child{display:inline-block}
+
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_up h2{font-size:14px}
+	.blog_detl_wrapper .blog_detl_left .share_bx .share_bx_down h6{font-size:10px}
+
+	.partner_area .partner_bxs{padding:0px 20px}
+	.partner_area .partner_bxs .partner_bx_1 .partner_bx_1_txt{padding:20px 0px}
+
+	.team_wrapper .team_area .team_bx{width:100%; max-width:300px;}
+
+	.portfolio_wrapper .nav-tabs > li span{left:46%}
+}
+/*..........200px to 479px css end here.........*/
+
+
+/*..........479px to 767px css start here.........*/
+
+@media screen and (max-width:767px){
+	.benefits_area .benefits_bx .benefits_head h3 {
+	    font-size: 26px;
+	}
+	.page-id-94 .vc_custom_1532327731966 {
+	    padding-top: 50px !important;
+	    padding-bottom: 30px !important;
+	}
+	.page-id-94 .benefits_area {
+	    padding: 40px 20px 0;
+	}
+	.footer-widgets.widget_media_gallery .gallery .gallery-item .gallery-icon {
+	    padding-top: 10px;
+	}
+	.featured_area .featured_rht { 
+	    margin-top: 40px;
+	}
+	.featured_area .featured_lft p {
+	    line-height: 28px;
+	}
+	.social_area_rht ul {  
+	    width: 200px;
+	    margin: 0 auto;
+	}
+	.overall_progress_chart .progress_graph_report {
+	    width: 98%;
+	    margin-top: 80px;
+	}
+	.overall_progress_chart .progress_graph_report ul li .graph_des p {
+	    line-height: 28px;
+	    margin-bottom: 10px;
+	}
+	.recent_area ul li {
+	    width: 49%;
+	}
+	.vc_custom_1531910093696 {
+	    padding-top: 70px !important;
+	    padding-bottom: 0 !important;
+	} 
+	.pricing_area .pricing_tbl .price_bx .pricing_head {
+	    height: 128px;
+	}
+	.pricing_area .pricing_tbl .price_bx {
+	    width: 270px;
+	    margin: 20px 20px 70px;
+	}
+	.pricing_area {
+	    padding: 50px 15px 50px !important;
+	}
+	.about_area ul li figure {
+	    width: 70px;
+	    height: 70px;  
+	}
+	.vc_custom_1532263248432 {
+	    padding-top: 80px !important; 
+	}
+	.vc_custom_1532265545488 {
+	    padding-top: 90px !important;
+	    padding-bottom: 30px !important;
+	}
+	.about_area ul li .abt_des {
+	    width: 100%;
+	}
+	.about_area ul li { 
+		width: 40%; 
+	}
+	.about_area ul { 
+	    margin-left: 22% !important;
+	}
+	#pd40.res-pad2 { 
+	    padding-bottom: 70px !important;
+	}
+	.solution_area {
+	    padding: 70px 20px 0; 
+	}
+	.portfolio_listing {
+	    margin: 50px auto 0;
+	    max-width: 610px;
+	}
+	#bs-example-navbar-collapse-1 { 
+	    padding: 0;
+	}
+	.home2_portfolio_area .portfolio_listing ul,
+	.home2_portfolio_area .portfolio_listing ul li { 
+	    margin: 0;
+	}
+	.navigation_area .nav.navbar-nav { 
+	    padding-left: 0;
+	    min-width: inherit;
+    	width: 100%;
+    	max-width: 100%;
+	}
+	.portfolio_listing ul li .featured_overlay h3 {
+	    margin: 10px 0px;
+	    font-size: 16px;
+	}
+	.navigation_area .nav.navbar-nav li {
+	    display: block; 
+	    width: 100%;
+	} 
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	} 
+	.portfolio_wrapper .nav-tabs > li.active a { 
+	    width: 100%; 
+	}
+	.portfolio_wrapper .nav-tabs > li span {
+	    left: 0;
+	    right: 0;
+	}
+	#hbanner {
+	    margin-top: 0px !important;
+	}
+	.banner_area {
+	    min-height: 380px; 
+	}
+	.recent_area ul li {
+	    width: inherit;
+	    margin: 0 2% 4%;
+	}
+	.recent_area ul li h4{
+		font-weight: 600;
+	}
+	.portfolio_area .tab-content {
+	    width: 100%; 
+	}
+	.home2_portfolio_area { 
+	    margin-bottom: 30px;
+	}
+	.about_area ul { 
+	    max-width: 70%;
+	    margin: 0 auto;
+	}
+	#pd40{
+		padding-bottom: 40px !important;
+	}
+	#pt40{
+		padding-top: 40px !important;
+	}
+	#pt0{
+		padding-top: 0px !important;
+	}
+	.contact_wrapper .addres_area .addres_area_txt .addres_in {
+	    width: 100%; 
+	}
+	.contact_wrapper {
+	    padding: 0px 20px 0px 20px;
+	}
+	#carousel-example-generic {
+	    width: 100%; 
+	}
+	.carousel-inner { 
+	    width: inherit;
+	}
+	.recent_news_area2 .carousel-inner img {
+	    margin-right: 0;
+	}
+	#pd40.res-pad2 {
+	    margin-top: -100px !important; 
+	}
+	.testimonial_area {
+	    min-height: 339px;
+	}
+	.services_area ul li .serv_des h3 {
+	    font-size: 18px;
+	}
+	.benefits_bx3 ul li .ben_des {
+	    width: 70%;
+	}
+	.recent_news_area2 .share_bx .share_bx_down { 
+	    padding: 0 12px;
+	}
+	.vc_custom_1532630362924.sec-contact{
+		padding-top: 90px !important;
+	}
+
+}
+/*..........479px to 767px css end here.........*/
+
+
+@media screen and (max-width: 614px) {
+	.vc_custom_1532629051657.sec-wdgt {
+	    padding-top: 40px !important;
+	    padding-bottom: 10px !important; 
+	}
+	#carousel-example-generic { 
+		height: 400px;
+	}
+	.recent_news_area2 .left.carousel-control, .recent_news_area2 .right.carousel-control {
+	    top: 20%;
+	}
+	.about_area ul { 
+		margin-left: 22%;
+	}
+	.about_area ul li {
+	    width: 40%;
+	}
+	.about_area ul li figure{
+		text-align: left;
+	}
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="text"] {
+		padding: 0px 24px;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 { 
+		padding: 20px 25px !important; 
+	}
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+	    width: 100%; 
+	}
+}
+@media screen and (max-width: 510px) {
+	.about_area ul li {
+	    width: 50%;
+	    margin-bottom: 0;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="text"] {
+	    padding: 0px 24px;
+	    width: 100%;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 {
+	    padding: 12px 25px !important;
+	    width: 100%;
+	    border-top-left-radius: 0 !important;
+	    border-top-right-radius: 0 !important;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	footer .footer_sec3{
+		margin-bottom: 20px !important;
+	}
+	.solution_area .solution_area_videobox { 
+    	width: 100%
+	}
+	.banner2_area .banner2_txt {
+	    padding: 75px 10px;
+	    margin-left:40px;
+	}
+	.recent_area ul li { 
+	    max-width: 300px;
+	    width: 100%;
+	}
+	
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.subscribe_newsletter .newsletter_frm input[type="text"],
+	.subscribe_newsletter .newsletter_frm input[type="submit"].cmn_btn1 { 
+		width: 100%; 
+	}
+	.benefits_area {
+	    padding: 20px;
+	}
+	.vc_custom_1532594023213.wdgt {
+	    padding-top: 50px !important; 
+	}
+}
+@media screen and (max-width: 360px) {
+	.overall_progress_chart {
+	    padding: 60px 20px 0;
+	}
+	.recent_area{
+		padding-top: 20px;
+	}
+	.pricing_area {
+	    padding: 0 15px !important;
+	}
+	.vc_custom_1532361234280.sec-news2 {
+	    padding-top: 50px !important;
+	}
+	.subscribe_newsletter {
+		padding: 50px 20px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.banner2_area .banner2_txt {
+	    padding: 75px 10px;
+	    margin-left: 30px;
+	}
+	
+	.navigation_area .navbar-nav > li.search-icon{
+		display: none !important;
+	}
+	.footer-widgets.widget_media_gallery .gallery .gallery-item .gallery-icon{
+		padding-top: 0px;
+	}
+}
