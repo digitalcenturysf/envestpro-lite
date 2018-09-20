@@ -165,7 +165,7 @@ ul {
 .header_top_area .top_rht {
 	width: 50%;
 	float: left;
-	text-align: right
+	text-align: right;
 }
 .header_top_area .top_rht ul li {
 	display: inline-block;
@@ -175,8 +175,8 @@ ul {
 	font-weight: 500;
 }
 .header_logo_area {
-	padding: 20px 0px;
-	position: relative
+	padding: 15px 0px 40px;
+	position: relative;
 }
 .header_logo_area .social_icon {
 	width: 30%;
@@ -212,6 +212,13 @@ ul {
     height: 50px;
     line-height: 50px;
     text-align: center;
+    position: relative;
+}
+.header_logo_area .logo_area span.tag{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    right: 0;
 }
 .header_logo_area .cart_area {
 	width: 30%;

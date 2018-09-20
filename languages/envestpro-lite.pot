@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: EnvestPro Lite v1.0.0\n"
+"Project-Id-Version: EnvestPro Lite v1.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-08-09 09:50:19+0000\n"
+"PO-Revision-Date: 2018-09-17 13:04:27+0000\n"
 "Last-Translator: test <test@test.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,64 +20,82 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: 404.php:22
+#: 404.php:18
+#: inc/envestpro-lite-func.php:313
+#@ envestpro-lite
+msgid "404"
+msgstr ""
+
+#: 404.php:21
 #@ envestpro-lite
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: 404.php:26
+#: 404.php:25
 #@ envestpro-lite
 msgid "It looks like nothing was found at this location. Maybe you would try a search?"
 msgstr ""
 
-#. translators: 1: comment count number, 2: title.
+#. translators: %s: post title
 #: comments.php:33
+#@ envestpro-lite
+msgctxt "comments title"
+msgid "Post Comments ( 1 )"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
 #, php-format
 #@ envestpro-lite
 msgctxt "comments title"
-msgid "POST COMMENET ( %1$s )"
-msgid_plural "Post Comments ( %1$s )"
+msgid "Post Comments ( %d )"
+msgid_plural "Post Comments ( %d )"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:38
+#: comments.php:50
 #@ envestpro-lite
 msgid "Interview With An Expert"
 msgstr ""
 
-#: comments.php:54
+#: comments.php:50
+#@ envestpro-lite
+msgid "graph icon"
+msgstr ""
+
+#: comments.php:66
 #@ envestpro-lite
 msgid "Comments are closed."
 msgstr ""
 
-#: functions.php:60
+#: functions.php:53
 #@ envestpro-lite
 msgid "Main Menu"
 msgstr ""
 
-#: functions.php:123
+#: functions.php:116
 #@ envestpro-lite
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:125
+#: functions.php:118
 #@ envestpro-lite
 msgid "Add widgets here."
 msgstr ""
 
-#: functions.php:145
+#: functions.php:141
 #@ envestpro-lite
 msgctxt "Poppins font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:153
+#: functions.php:149
 #@ envestpro-lite
 msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:161
+#: functions.php:157
 #@ envestpro-lite
 msgctxt "Arimo font: on or off"
 msgid "on"
@@ -88,7 +106,7 @@ msgstr ""
 msgid "Toggle navigation"
 msgstr ""
 
-#: header.php:96
+#: header.php:67
 #@ envestpro-lite
 msgid "Home"
 msgstr ""
@@ -113,73 +131,55 @@ msgstr ""
 msgid "Pick a color for footer background."
 msgstr ""
 
-#: inc/envestpro-lite-func.php:13
+#: inc/envestpro-lite-func.php:36
 #@ envestpro-lite
-msgid "site logo"
+msgid "WordPress"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:32
+#: inc/envestpro-lite-func.php:37
 #@ envestpro-lite
-msgid "WordPress Themes"
+msgid "WordPress Theme"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:33
-#@ envestpro-lite
-msgid "Themeforest"
-msgstr ""
-
-#: inc/envestpro-lite-func.php:46
+#: inc/envestpro-lite-func.php:53
 #@ envestpro-lite
 msgid "0 Views"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:48
-#: inc/envestpro-lite-func.php:50
+#: inc/envestpro-lite-func.php:55
+#: inc/envestpro-lite-func.php:57
 #@ envestpro-lite
 msgid " Views"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:82
+#: inc/envestpro-lite-func.php:101
 #@ envestpro-lite
 msgid " at "
 msgstr ""
 
-#: inc/envestpro-lite-func.php:86
+#: inc/envestpro-lite-func.php:105
 #@ envestpro-lite
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: inc/envestpro-lite-func.php:138
+#: inc/envestpro-lite-func.php:159
 #@ envestpro-lite
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:143
+#: inc/envestpro-lite-func.php:164
 #@ envestpro-lite
 msgid "Post comment"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:201
-#: inc/envestpro-lite-func.php:281
-#: inc/template-tags.php:27
-#, php-format
-#@ envestpro-lite
-msgid "%s"
-msgstr ""
-
-#: inc/envestpro-lite-func.php:243
+#: inc/envestpro-lite-func.php:264
 #@ envestpro-lite
 msgid "ADD MENU"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:270
+#: inc/envestpro-lite-func.php:292
 #@ envestpro-lite
 msgid "Blog"
-msgstr ""
-
-#: inc/envestpro-lite-func.php:302
-#@ envestpro-lite
-msgid "404"
 msgstr ""
 
 #. translators: %s: post author.
@@ -231,11 +231,6 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/walker-menu.php:181
-#@ envestpro-lite
-msgid "Add a menu"
-msgstr ""
-
 #: template-parts/content-none.php:14
 #@ envestpro-lite
 msgid "Nothing Found"
@@ -258,8 +253,8 @@ msgstr ""
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:26
-#: template-parts/content_single.php:44
+#: template-parts/content-page.php:23
+#: template-parts/content_single.php:32
 #@ envestpro-lite
 msgid "Pages:"
 msgstr ""

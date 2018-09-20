@@ -55,7 +55,7 @@ if ( post_password_required() ) {
 			<?php
 				wp_list_comments( array(  
 					'style'   => 'ul',
-					'callback' => 'envest_pro_lite_comments_list' 
+					'callback' => 'envestpro_lite_comments_list' 
 				) );
 			?> 
 		</ul>

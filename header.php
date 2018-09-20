@@ -26,7 +26,7 @@
   <div class="container">
     <div class="row"> 
       <div class="logo_area"> 
-        <?php envest_pro_lite_Logo(); ?>
+        <?php envestpro_lite_Logo(); ?>
       </div> 
     </div>
   </div>
@@ -46,13 +46,7 @@
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <?php envest_pro_lite_main_menu(); ?> 
-            <div id="srch">
-              <form method="get" action="<?php echo esc_url(home_url( '/' )); ?>">
-                <input type="search" class="insrch" placeholder="<?php echo esc_attr( 'Search ...', 'envestpro-lite' ) ?>" value="<?php echo get_search_query() ?>" name="s" />
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-            </div>  
+            <?php envestpro_lite_main_menu(); ?>   
           </div>
           <!-- /.navbar-collapse -->  
         <!-- /.container --> 
@@ -67,11 +61,11 @@
   <div class="container">
     <div class="row">
       <h6>&nbsp;</h6>
-      <h1><?php envest_pro_lite_breadcrumb(); ?></h1> 
+      <h1><?php envestpro_lite_breadcrumb(); ?></h1> 
       <div class="ctgry_bx">
         <h5> 
             <a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e( 'Home','envestpro-lite' ); ?></a>&nbsp; / &nbsp; 
-            <?php envest_pro_lite_breadcrumb(); ?>
+            <?php envestpro_lite_breadcrumb(); ?>
         </h5>
       </div> 
     </div>

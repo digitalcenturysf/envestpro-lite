@@ -9,21 +9,21 @@
 
 ?>
 	<?php 
-	$envest_pro_lite_blog_cls = 'no-img';
+	$envestpro_lite_blog_cls = 'no-img';
 	if(has_post_thumbnail()):
-		$envest_pro_lite_blog_cls = '';
-		$envest_pro_lite_blog_image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'envestpro-lite-blog-single');
-		 $envest_pro_lite_blog_img = $envest_pro_lite_blog_image[0];
+		$envestpro_lite_blog_cls = '';
+		$envestpro_lite_blog_image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'envestpro-lite-blog-single');
+		 $envestpro_lite_blog_img = $envestpro_lite_blog_image[0];
 		 ?>
-		<img src="<?php echo esc_url($envest_pro_lite_blog_img); ?>" alt="<?php the_title(); ?>">
+		<img src="<?php echo esc_url($envestpro_lite_blog_img); ?>" alt="<?php the_title(); ?>">
 	<?php endif; ?> 
-    <div class="share_bx <?php echo esc_attr($envest_pro_lite_blog_cls); ?>">
+    <div class="share_bx <?php echo esc_attr($envestpro_lite_blog_cls); ?>">
       <div class="share_bx_up">
         <h5><?php esc_html_e('Posted by','envestpro-lite'); ?> <span class="blue"><?php the_author(); ?></span></h5>
         <h2><?php the_title(); ?></h2>
       </div>
       <div class="share_bx_down">
-        <h6><?php envest_pro_lite_posted_on(); ?> <span>|</span> <?php comments_popup_link( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite'), 'comments-link', __('Comments are off','envestpro-lite')); ?> <span>|</span> <?php envest_pro_lite_setPostViews(get_the_ID()); ?> <?php $envest_pro_postviews =  envest_pro_lite_getPostViews(get_the_ID()); echo esc_html($envest_pro_postviews); ?></h6>
+        <h6><?php envestpro_lite_posted_on(); ?> <span>|</span> <?php comments_popup_link( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite'), 'comments-link', __('Comments are off','envestpro-lite')); ?> <span>|</span> <?php envestpro_lite_setPostViews(get_the_ID()); ?> <?php $envestpro_postviews =  envestpro_lite_getPostViews(get_the_ID()); echo esc_html($envestpro_postviews); ?></h6>
       </div>
     </div>
 	<?php the_content();  

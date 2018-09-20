@@ -11,31 +11,29 @@
 /**
  * Custom logo.
  */ 
-function envest_pro_lite_Logo(){
-    global $viktor_lite;
-   $logo = get_custom_logo();   
-    if( $logo ){
+function envestpro_lite_Logo(){   
+    if( has_custom_logo() ){
         the_custom_logo();
        }else{ ?> 
-        <a class="logolink" href="<?php echo esc_url(home_url('/')); ?>"><span><?php bloginfo( 'name' ); ?></span></a>
+        <a class="logolink" href="<?php echo esc_url(home_url('/')); ?>"><span class="bname"><?php bloginfo( 'name' ); ?></span></a> <br><span class="tag tagname"><?php bloginfo( 'description' ); ?></span>
    <?php }
 } 
 
 /**
  * Copyright text. 
  */ 
-function envest_pro_lite_copyright(){ 
+function envestpro_lite_copyright(){ 
     $copy_text = get_theme_mod( 'v_copyright_text' );
     if(!empty($copy_text)){
    ?>
     <p><?php echo esc_html($copy_text); ?></p>
    <?php
     }else{
-        $url1 =  esc_url('https://digitalcenturysf.com/templates/');
-        $url2 =  esc_url('https://digitalcenturysf.com/'); 
-        $text =  esc_html__('Free WordPress Themes','envestpro-lite');
-        $text2 =  esc_html__('Best WordPress Themes','envestpro-lite');
-        printf( '<p><a href="%s">%s</a> Powered by <a class="credits" href="%s">%s</a></p>', esc_url($url1), esc_html($text), esc_url($url2), esc_html($text2) );
+        $url1 =  esc_url('https://wordpress.org/');
+        $url2 =  esc_url('https://digitalcenturysf.com/templates/envestpro-lite-business-multipurpose-theme/'); 
+        $text =  esc_html__('WordPress','envestpro-lite');
+        $text2 =  esc_html__('WordPress Theme','envestpro-lite');
+        printf( '<p><a href="%s">%s</a> Theme Powered by <a class="credits" href="%s">%s</a></p>', esc_url($url1), esc_html($text), esc_url($url2), esc_html($text2) );
     }
 }
  
@@ -44,7 +42,7 @@ function envest_pro_lite_copyright(){
  *  
  * @param bool $postID    this is post ID.
  */  
-function envest_pro_lite_getPostViews($postID){
+function envestpro_lite_getPostViews($postID){
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==0){
@@ -58,13 +56,12 @@ function envest_pro_lite_getPostViews($postID){
     }
 }
 
- 
 /**
  * Set post ID.
  *  
  * @param bool $postID    this is post ID.
  */  
-function envest_pro_lite_setPostViews($postID) {
+function envestpro_lite_setPostViews($postID) {
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==''){
@@ -85,7 +82,7 @@ function envest_pro_lite_setPostViews($postID) {
  * @param string $args      the arguments.
  * @param bool   $depth     the comment depth.
  */  
-function envest_pro_lite_comments_list($comment, $args, $depth) {  ?>  
+function envestpro_lite_comments_list($comment, $args, $depth) {  ?>  
 <li id="comment-<?php comment_ID() ?>" <?php comment_class(); ?>> 
     <div class="cmnt_bx">
         <div class="cmnt_bx_img"> 
@@ -98,7 +95,7 @@ function envest_pro_lite_comments_list($comment, $args, $depth) {  ?>
               <h2><?php comment_author(); ?></h2>
             </li>
             <li>
-              <h3><?php echo get_comment_date( 'F jS, Y' ); esc_html_e(' at ','envestpro-lite'); echo comment_time('g:i a'); ?></h3>
+              <h3><?php echo get_comment_date( get_option( 'date_format' ) ); esc_html_e(' at ','envestpro-lite'); echo comment_time( get_option( 'time_format' ) ); ?></h3>
             </li>
           </ul>
             <?php if ($comment->comment_approved == '0') : ?>
@@ -115,7 +112,7 @@ function envest_pro_lite_comments_list($comment, $args, $depth) {  ?>
  *
  * @param string $fields the comment filed types.
  */  
-function envest_pro_lite_comment_fields($fields) {
+function envestpro_lite_comment_fields($fields) {
     $commenter = wp_get_current_commenter();
     $req = get_option( 'require_name_email' );
     $aria_req = ( $req ? " aria-required='true'" : '' );
@@ -130,20 +127,20 @@ function envest_pro_lite_comment_fields($fields) {
     '" size="30" /></li>';
     return $fields;
 }
-add_filter('comment_form_default_fields','envest_pro_lite_comment_fields');
+add_filter('comment_form_default_fields','envestpro_lite_comment_fields');
 
- 
+
 /**
  * Comment form field order change.
  */   
-function envest_pro_lite_form_order_textarea()
+function envestpro_lite_form_order_textarea()
 {
     echo '<li>
             <textarea class="form_txt_msg" id="comment" name="comment" cols="30" rows="4" placeholder="'.esc_attr("Comment","envestpro-lite").'" required></textarea> 
          </li> </ul>';
 } 
-add_action( 'comment_form_after_fields', 'envest_pro_lite_form_order_textarea' );
-add_action( 'comment_form_logged_in_after', 'envest_pro_lite_form_order_textarea' );
+add_action( 'comment_form_after_fields', 'envestpro_lite_form_order_textarea' );
+add_action( 'comment_form_logged_in_after', 'envestpro_lite_form_order_textarea' );
 
 
 /**
@@ -151,7 +148,7 @@ add_action( 'comment_form_logged_in_after', 'envest_pro_lite_form_order_textarea
  *
  * @param string $defaults default values.
  */   
-function envest_pro_lite_comment_form_allowed_tags( $defaults ) { 
+function envestpro_lite_comment_form_allowed_tags( $defaults ) { 
 
     $defaults['class_form'] = 'validate-form'; 
     $defaults['id_form'] = 'add-comment'; 
@@ -165,7 +162,7 @@ function envest_pro_lite_comment_form_allowed_tags( $defaults ) {
     $defaults['submit_button'] =  '<input name="%1$s" type="submit" id="%2$s" class="cmn_btn1 %3$s" value="%4$s" />'; 
     return $defaults;
 }
-add_filter( 'comment_form_defaults', 'envest_pro_lite_comment_form_allowed_tags' );
+add_filter( 'comment_form_defaults', 'envestpro_lite_comment_form_allowed_tags' );
 
 
 if ( ! function_exists( 'enves_pro_lite_pagination' ) ){ 
@@ -219,17 +216,30 @@ if ( ! function_exists( 'enves_pro_lite_pagination' ) ){
         );
 
         $paginate_links = paginate_links($pagination_args);
-
-        if ($paginate_links) {
-            print $paginate_links;
-        } 
+ 
+        if ($paginate_links) { 
+            echo wp_kses($paginate_links,
+                array(
+                    'ul'=> array('class'=>array('pagination')),
+                    'li'=> array('class'=>array('page-item')),
+                    'span'=> array('class'=>array()),
+                    'i'=> array('class'=>array()),
+                    'a' => array(
+                        'target' => array(),
+                        'href' => array(),
+                        'title' => array(),
+                        'class' => array('page-link')
+                    ),
+                )
+            ); 
+        }  
     }
 }
 
 /**
  * Main Menu. 
  */  
-function envest_pro_lite_main_menu(){
+function envestpro_lite_main_menu(){
     wp_nav_menu( array(
         'theme_location'    => 'menu-1',
         'depth'             => 3,
@@ -237,14 +247,14 @@ function envest_pro_lite_main_menu(){
         'menu_id'           => 'envestpro-lite-main-nav',
         'menu_class'        => 'nav navbar-nav', 
         'walker'            => new EnvestPro_Lite(),
-        'fallback_cb'       => 'envest_pro_lite_default_menu'
+        'fallback_cb'       => 'envestpro_lite_default_menu'
     ));
 }  
  
 /**
  * Fallback menu.
  */  
-function envest_pro_lite_default_menu() {
+function envestpro_lite_default_menu() {
     ?>
     <ul class="nav navbar-nav dflt"> 
         <li>
@@ -260,9 +270,9 @@ function envest_pro_lite_default_menu() {
  * 
  * @param string $icon the icon class.
  */   
-function envest_pro_lite_team_social_links($icon) {
+function envestpro_lite_team_social_links($icon) {
     $ico = str_replace('-', '_', $icon);
-    $ic = '_envest_pro_lite_'.$ico;
+    $ic = '_envestpro_lite_'.$ico;
     $link = get_post_meta(get_the_ID(),$ic,true);
     if(!empty($link)){
         echo '<li><a href="'.esc_url($link).'"><i class="fa fa-'.esc_attr($icon).'"></i></a></li>';
@@ -273,40 +283,32 @@ function envest_pro_lite_team_social_links($icon) {
 /**
  * Breadcrumb. 
  */    
-function envest_pro_lite_breadcrumb() { 
-    global $post,$envest_pro; 
+function envestpro_lite_breadcrumb() { 
+    global $post,$envestpro; 
     
-    $envest_pro_lite_blog_title=  esc_html__('Blog','envestpro-lite');
+    $envestpro_lite_blog_title=  esc_html__('Blog','envestpro-lite');
     
     if(is_front_page() && is_home()){
-        echo esc_html($envest_pro_lite_blog_title);
+        echo esc_html($envestpro_lite_blog_title);
 
     }elseif(is_home() || is_page()){
         if(is_page()){
-            $envest_pro_lite_ptitle = get_the_title();
+            $envestpro_lite_ptitle = get_the_title();
         }else{
-            $envest_pro_lite_ptitle =  $envest_pro_lite_blog_title;
+            $envestpro_lite_ptitle =  $envestpro_lite_blog_title;
         }
-        echo esc_html($envest_pro_lite_ptitle);
-    }elseif(is_single()){ 
-        if( class_exists('WooCommerce' ) && is_product()){
-            do_action('envest_pro_lite_woo_breadcrumb');
-        }else{
-            the_title();             
-        }
+        echo esc_html($envestpro_lite_ptitle);
+    }elseif(is_single()){  
+        the_title();   
     }elseif(is_search()){ 
             printf( get_search_query()  ); 
     }elseif(is_category() || is_tag()) { 
             single_cat_title("", true);  
-    }elseif(is_archive()){ 
-        if ( class_exists('WooCommerce' ) ){
-            if(is_shop() || is_product_category() || is_product_tag() ){ 
-                woocommerce_page_title();   
-            }else{  
-                echo get_the_date('F Y');  
-            } 
-        }else{  
-            echo get_the_date('F Y');  
-        }
-    }elseif(is_404()){ esc_html_e('404','envestpro-lite');}else{ the_title();}
+    }elseif(is_archive()){  
+        echo get_the_date( get_option( 'date_format' ) ); 
+    }elseif(is_404()){
+        esc_html_e('404','envestpro-lite');
+    }else{ 
+        the_title();
+    }
 }

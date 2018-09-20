@@ -7,7 +7,7 @@
  * @package EnvestPro_Lite
  */
 
-if ( ! function_exists( 'envest_pro_lite_setup' ) ) :
+if ( ! function_exists( 'envestpro_lite_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -15,7 +15,7 @@ if ( ! function_exists( 'envest_pro_lite_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function envest_pro_lite_setup() {
+	function envestpro_lite_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
@@ -37,10 +37,8 @@ if ( ! function_exists( 'envest_pro_lite_setup' ) ) :
 
 		// image size.	
 		add_image_size( 'envestpro-lite-blog-featured', 380, 220, true );
-		add_image_size( 'envestpro-lite-blog-thumb', 370, 260, true );
-		add_image_size( 'envestpro-lite-sec-project', 320, 340, true );
-		add_image_size( 'envestpro-lite-blog-single', 870, 530, true );
-		add_image_size( 'envestpro-lite-team-thumb', 270, 310, true );
+		add_image_size( 'envestpro-lite-blog-thumb', 370, 260, true ); 
+		add_image_size( 'envestpro-lite-blog-single', 870, 530, true ); 
 		add_image_size( 'envestpro-lite-avatar', 165, 180, true );
  
 		/*
@@ -91,10 +89,10 @@ if ( ! function_exists( 'envest_pro_lite_setup' ) ) :
 		 * This theme styles the visual editor to resemble the theme style,
 		 * specifically font, colors, icons, and column width.
 		 */
-		add_editor_style( array( 'css/editor-style.css', 'genericons/genericons.css', envest_pro_lite_fonts_url() ) );
+		add_editor_style( array( 'css/editor-style.css', 'genericons/genericons.css', envestpro_lite_fonts_url() ) );
 	}
 endif;
-add_action( 'after_setup_theme', 'envest_pro_lite_setup' );
+add_action( 'after_setup_theme', 'envestpro_lite_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -103,17 +101,17 @@ add_action( 'after_setup_theme', 'envest_pro_lite_setup' );
  *
  * @global int $content_width
  */
-function envest_pro_lite_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'envest_pro_lite_content_width', 640 );
+function envestpro_lite_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'envestpro_lite_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'envest_pro_lite_content_width', 0 );
+add_action( 'after_setup_theme', 'envestpro_lite_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function envest_pro_lite_widgets_init() {
+function envestpro_lite_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'envestpro-lite' ),
 		'id'            => 'sidebar-1',
@@ -124,13 +122,13 @@ function envest_pro_lite_widgets_init() {
 		'after_title'   => '</h3></div>',
 	) );
 }
-add_action( 'widgets_init', 'envest_pro_lite_widgets_init' );
+add_action( 'widgets_init', 'envestpro_lite_widgets_init' );
 
 
 /**
  * Register fonts. 
  */
-function envest_pro_lite_fonts_url() { 
+function envestpro_lite_fonts_url() { 
 
 	$fonts_url = '';
 	$fonts     = array();
@@ -173,32 +171,28 @@ function envest_pro_lite_fonts_url() {
 /**
  * Enqueue scripts and styles.
  */
-function envest_pro_lite_scripts() {
+function envestpro_lite_scripts() {
  
 	// Add custom fonts, used in the main stylesheet.
-	wp_enqueue_style( 'envestpro-lite-fonts', envest_pro_lite_fonts_url(), array(), null );
+	wp_enqueue_style( 'envestpro-lite-fonts', envestpro_lite_fonts_url(), array(), null );
 
 	// CSS.
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
 	wp_enqueue_style( 'envestpro-lite-main-style', get_template_directory_uri() . '/css/main.css' );
 	wp_enqueue_style( 'envestpro-lite-responsive', get_template_directory_uri() . '/css/responsive.css' ); 
-	wp_enqueue_style( 'responsiveslides', get_template_directory_uri() . '/css/responsiveslides.css' ); 
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' ); 
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css' ); 
 	wp_enqueue_style( 'envestpro-lite-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery','masonry'), '20151215', true );  
-	wp_enqueue_script( 'counterup', get_template_directory_uri() . '/js/jquery.counterup.js', array(), '20151215', true );   
-	wp_enqueue_script( 'responsiveslides', get_template_directory_uri() . '/js/responsiveslides.js', array(), '20151215', true );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery','masonry'), '20151215', true );      
 	wp_enqueue_script( 'envestpro-lite-custom', get_template_directory_uri() . '/js/custom.js', array(), '20151215', true );
-	wp_enqueue_script( 'envestpro-lite-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
+	wp_enqueue_script( 'envestpro-lite-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true ); 
 	wp_enqueue_script( 'envestpro-lite-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
  
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'envest_pro_lite_scripts' );
+add_action( 'wp_enqueue_scripts', 'envestpro_lite_scripts' );
 
 /**
  * Implement the Custom Header feature.
@@ -244,13 +238,13 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function envestpro_lite_add_css() {
 	global $post; 
 	if(is_page()){  
-		$viktor_lite_hdr_img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID), 'full' );
-        $viktor_lite_hdr_img = $viktor_lite_hdr_img[0];
-        if(empty($viktor_lite_hdr_img)){
-        	$viktor_lite_hdr_img = get_header_image();
+		$envestpro_lite_hdr_img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID), 'full' );
+        $envestpro_lite_hdr_img = $envestpro_lite_hdr_img[0];
+        if(empty($envestpro_lite_hdr_img)){
+        	$envestpro_lite_hdr_img = get_header_image();
         }
 	}else{ 
-		$viktor_lite_hdr_img = get_header_image();
+		$envestpro_lite_hdr_img = get_header_image();
 	}
    $logo = get_theme_mod( 'custom_logo' );
    $image = wp_get_attachment_image_src( $logo , 'full' ); 
@@ -259,10 +253,10 @@ function envestpro_lite_add_css() {
     $footer_bg_clr = get_theme_mod( 'footer_bg_color' );
     echo '<style type="text/css"> 
 			.page-head-area{
-			    background: url('.esc_url($viktor_lite_hdr_img).') center no-repeat;  
+			    background: url('.esc_url($envestpro_lite_hdr_img).') center no-repeat;  
 			} 
 			.cpright_area{ 
-				background: '.sanitize_hex_color($footer_bg_clr).';
+				background: '.esc_attr(sanitize_hex_color($footer_bg_clr)).';
 			}  
 			.page-head-area h1{ 
 				color: #'.esc_attr($hdrtxt).';
@@ -276,13 +270,13 @@ add_action( 'wp_head', 'envestpro_lite_add_css' );
  *
  * @param string $variable the comment count.
  */ 
-function envest_pro_lite_categories_archive_postcount_filter ($variable) {
+function envestpro_lite_categories_archive_postcount_filter ($variable) {
 	$variable = str_replace('(', '<span class="post-number">', $variable);
  	$variable = str_replace(')', '</span>', $variable);
     return $variable;
 }
-add_filter('wp_list_categories','envest_pro_lite_categories_archive_postcount_filter');
-add_filter('get_archives_link','envest_pro_lite_categories_archive_postcount_filter');
+add_filter('wp_list_categories','envestpro_lite_categories_archive_postcount_filter');
+add_filter('get_archives_link','envestpro_lite_categories_archive_postcount_filter');
 
 
 /**
@@ -290,19 +284,19 @@ add_filter('get_archives_link','envest_pro_lite_categories_archive_postcount_fil
  *
  * @param string $var the menu id.
  */  
-function envest_pro_lite_attributes_filter($var) {
+function envestpro_lite_attributes_filter($var) {
   return is_array($var) ? array() : '';
 }
-add_filter('nav_menu_item_id', 'envest_pro_lite_attributes_filter', 100, 1);
-add_filter('page_css_class', 'envest_pro_lite_attributes_filter', 100, 1);
+add_filter('nav_menu_item_id', 'envestpro_lite_attributes_filter', 100, 1);
+add_filter('page_css_class', 'envestpro_lite_attributes_filter', 100, 1);
 
 /**
  * Remove menu classes.
  *
  * @param string $var the menu classs.
  */  
-function envest_pro_lite_attributes_filter_class($var) {
+function envestpro_lite_attributes_filter_class($var) {
   return is_array($var) ? array() : '';
 }
-add_filter('nav_menu_css_class', 'envest_pro_lite_attributes_filter_class', 100, 1);  
+add_filter('nav_menu_css_class', 'envestpro_lite_attributes_filter_class', 100, 1);  
 

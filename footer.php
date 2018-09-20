@@ -13,7 +13,7 @@
 <!--footer start here-->
 <div class="cpright_area">
   <div class="container">
-    <div class="row"> <?php envest_pro_lite_copyright(); ?> </div>
+    <div class="row footer_copy"> <?php envestpro_lite_copyright(); ?> </div>
   </div>
 </div>
 <?php wp_footer(); ?>
