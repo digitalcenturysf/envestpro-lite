@@ -92,44 +92,8 @@ GNU General Public License for more details.
 
 ## Theme License
 The **EnvestPro Lite WordPress theme** is 100% GPLv2. See headers of files for further details.[GNU GPL v2.0 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
-
-## Font Awesome License
-Font Awesome icons, Copyright Dave Gandy  
-License: SIL Open Font License  
-Source: http://fontawesome.io/  
-
- 
-## Bootstrap License
-Bootstrap, Copyright 2011-2016 Twitter  
-Bootstrap is released under the MIT license  
-Source: http://getbootstrap.com  
-
-
-## Google Fonts License
-http://fonts.googleapis.com/css?family=Droid  
-http://fonts.googleapis.com/css?family=Raleway  
-http://fonts.googleapis.com/css?family=Open+Sans  
-They are under SIL Open Font.  
-
-
-## Theme screenshot images 
   
-Image 1, Copyright Pixabay    
-License: CC0 1.0 Universal (CC0 1.0)  
-Source: https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/
-
-Image 2, Copyright Skitterphoto  
-License: CC0 1.0 Universal (CC0 1.0)  
-Source: https://www.pexels.com/photo/house-money-capitalism-fortune-12619/
-
-Image 3, Copyright Public Domain Pictures  
-License: CC0 1.0 Universal (CC0 1.0)  
-Source: https://www.pexels.com/photo/stack-white-business-market-41301/
-
-
 ## Changelog 
   
-= July 05 2018 - 1.0.0 =
-* Theme released
-  
+### 1.0.0
+* Theme released (approved wp.org)
