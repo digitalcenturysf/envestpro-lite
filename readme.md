@@ -6,52 +6,72 @@
 View more themes from this author: https://digitalcenturysf.com
 
 ## Demo 
-* **Demo** : https://digitalcenturysf.com/themes/envest_pro/wordpress/ 
+* **Demo** : https://digitalcenturysf.com/themes/envest_pro/wordpress/
+* **Support Forum** : https://wordpress.org/support/theme/envestpro-lite
+
+
+## Table of Themes
+
+
+| [<img align="left" width="80" height="80" src="/img/thumb-viktor.jpg">](https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/"> Viktor Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-hexo.jpg">](https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/"> Hexo Lite - Free Wordpress Theme </a></p> |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
+| [<img align="left" width="80" height="80" src="/img/thumb-chili.jpg">](https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/"> Chili Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-envestpro.jpg">](https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/) <p align="left"><a href="https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/"> EnvestPro Lite - Free Wordpress Theme </a></p> |
 
 
 ## Installation 
 
-1. Primary:  
- = Login to your wp-admin account and go to Appearance -> Themes.  
- = Select "Install" tab and click on the "Upload" link.  
- = Select "envestpro-lite.zip" and click on "Install Now" button.  
- = In case of errors, use an alternate method.  
+1. Via The WordPress Dashboard (Easier):   
+	a) Login to your wp-admin account and go to Appearance -> Themes.   
+
+	![](/img/i1.png)  
+
+	b) Select "Add New" button and then click on the "Upload Theme" button.    
+
+	![](/img/i2.png)   
+
+	![](/img/i3.png)  
+	  
+	c) Click on the Browse button and find the envestpro-lite.zip file  and then click on the "Install" button.    
+
+	![](/img/i4.png)  
+	
+	d) After the theme has successfully uploaded click Activate and you're done!         
+
+	![](/img/i5.png)  
+	
+
  
-2. Alternate:  
- = Unzip the template file (envestpro-lite.zip) that you have downloaded.  
- = Upload the entire folder (envestpro-lite) to your server via FTP and place it in the /wp-content/themes/folder.  
- = Do not change the directory name.  
- = The template files should be there now: /wp-content/themes/envestpro-lite/index.php (example).  
- 
-3. Log into your WP admin panel and click on "Appearance". Go to "Themes" tab.  
+2. Via FTP:  
+	* Unzip the package you downloaded, inside you will find a file called envestpro-lite.zip   
+	* Login to your web server via FTP and browse to wp-content/themes and upload the envestpro-lite folder here    
+	* Login to your WordPress dashboard and go to Appearance > Themes, the envestpro theme will be visible, click Activate and you're done!    
+  
+3. Theme Customizer	Options:  
 
-4. Now click on "EnvestPro Lite" to activate the theme.  
+	* Basic Settings:  
+        You can manage here site logo, favicon, banner image, color and text.	  
 
-5. Theme Customizer	Options:  
-
-	a) Basic Settings:
-           You can manage here site logo, favicon, banner image, color and text.	  
-
-	b) Home Page Settings:   
-		i)		Go to Page --> Add New   
-		ii)		Page Attributes --> Select "Home Page".   
-		iii)	Our path to Perfection : You can set home page title, images, description and background image.    
-        iv)		Blog Section : you can select category of posts and add title, description of posts slider.  
-		v)		For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.  
+	* Home Page Settings:     
+		* Go to Page --> Add New   
+		* Page Attributes --> Select "Home Page".   
+		* Our path to Perfection : You can set home page title, images, description and background image.    
+        * Blog Section : you can select category of posts and add title, description of posts slider.  
+		* For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.  
                  
-7. How to setup custom menu ?  
+4. How to setup custom menu ?  
 
-You can change the content of the top right menu by create your own.  
+	You can change the content of the top right menu by create your own.  
 
-Create your custom menu :  
+	Create your custom menu :  
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Add content (pages, ...) to the menu and save.  
+	* In your admin panel, go to Appearance > Menu.  
 
-Attach the custom menu to the theme :  
+	* Add content (pages, ...) to the menu and save.  
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Create a Menu and set checked "Main Menu" to display header menu.  
+	Attach the custom menu to the theme :  
+
+	* In your admin panel, go to Appearance > Menu.  
+	* Create a Menu and set checked "Main Menu" to display header menu.  
  	
 
 ## Copyright
