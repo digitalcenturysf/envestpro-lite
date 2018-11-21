@@ -242,7 +242,7 @@ if ( ! function_exists( 'enves_pro_lite_pagination' ) ){
 function envestpro_lite_main_menu(){
     wp_nav_menu( array(
         'theme_location'    => 'menu-1',
-        'depth'             => 3,
+        'depth'             => 5,
         'container'         => false,
         'menu_id'           => 'envestpro-lite-main-nav',
         'menu_class'        => 'nav navbar-nav', 

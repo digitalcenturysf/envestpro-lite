@@ -23,7 +23,7 @@
         <h2><?php the_title(); ?></h2>
       </div>
       <div class="share_bx_down">
-        <h6><?php envestpro_lite_posted_on(); ?> <span>|</span> <?php comments_popup_link( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite'), 'comments-link', __('Comments are off','envestpro-lite')); ?> <span>|</span> <?php envestpro_lite_setPostViews(get_the_ID()); ?> <?php $envestpro_postviews =  envestpro_lite_getPostViews(get_the_ID()); echo esc_html($envestpro_postviews); ?></h6>
+        <h6><?php envestpro_lite_posted_on(); ?> <span>|</span> <?php comments_popup_link( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite'), 'comments-link', __('Comments are off','envestpro-lite')); ?></h6>
       </div>
     </div>
 	<?php the_content();  
@@ -35,19 +35,15 @@
             'link_after'  => '</span>',
         ) ); 
  
-	$menia_author = get_the_author_meta('description'); ?> 
-	<div class="author_about_bx">
-		<div class="author_about_img"> 
-			<?php echo get_avatar( get_the_author_meta( 'ID' ), 180 ); ?> 
+	$menia_author = get_the_author_meta('description');
+	if($menia_author): ?> 
+		<div class="author_about_bx">
+			<div class="author_about_img"> 
+				<?php echo get_avatar( get_the_author_meta( 'ID' ), 180 ); ?> 
+				</div>
+			<div class="author_about_txt">
+				<h2><?php the_author(); ?></h2> 
+				<p><?php the_author_meta('description'); ?></p>
 			</div>
-		<div class="author_about_txt">
-			<h2><?php the_author(); ?></h2>
-			<ul>
-			  <li><a href="<?php echo esc_url(get_the_author_meta('facebook')); ?>"><i class="fa fa-facebook"></i></a></li>
-			  <li><a href="<?php echo esc_url(get_the_author_meta('gplus')); ?>"><i class="fa fa-google-plus"></i></a></li>
-			  <li><a href="<?php echo esc_url(get_the_author_meta('twitter')); ?>"><i class="fa fa-twitter"></i></a></li> 
-			  <li><a href="<?php echo esc_url(get_the_author_meta('linkedin')); ?>"><i class="fa fa-linkedin"></i></a></li> 
-			</ul>
-			<p><?php the_author_meta('description'); ?></p>
 		</div>
-	</div>
+	<?php endif; ?>

@@ -36,7 +36,7 @@ function envestpro_lite_customize_register( $wp_customize ) {
 		'section'	=> 'v_copyright',
 		'setting'	=> 'v_copyright_text',
 		'type'	 => 'text',
-        'description'   => 'Write copyright text here.'
+        'description'   => __( 'Write copyright text here.', 'envestpro-lite' )
 	) );
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'footer_bg_color', array(
 		'label' => __( 'Background Color', 'envestpro-lite' ),

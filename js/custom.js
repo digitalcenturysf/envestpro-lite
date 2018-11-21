@@ -52,7 +52,7 @@
   });
 
   //multilever dropdown js start here 
-  $('.dropdown-submenu a.test').on("click", function(e){
+  $('.submenu a.dropdown-toggle').on("click", function(e){
     $(this).next('ul').toggle();
     e.stopPropagation();
     e.preventDefault();

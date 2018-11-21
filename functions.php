@@ -124,7 +124,6 @@ function envestpro_lite_widgets_init() {
 }
 add_action( 'widgets_init', 'envestpro_lite_widgets_init' );
 
-
 /**
  * Register fonts. 
  */
@@ -224,7 +223,6 @@ require get_template_directory() . '/inc/envestpro-lite-func.php';
  */
 require get_template_directory() . '/inc/walker-menu.php';
  
- 
 /**
  * Load Jetpack compatibility file.
  */
@@ -278,7 +276,6 @@ function envestpro_lite_categories_archive_postcount_filter ($variable) {
 add_filter('wp_list_categories','envestpro_lite_categories_archive_postcount_filter');
 add_filter('get_archives_link','envestpro_lite_categories_archive_postcount_filter');
 
-
 /**
  * Remove menu ID.
  *
@@ -299,4 +296,3 @@ function envestpro_lite_attributes_filter_class($var) {
   return is_array($var) ? array() : '';
 }
 add_filter('nav_menu_css_class', 'envestpro_lite_attributes_filter_class', 100, 1);  
-

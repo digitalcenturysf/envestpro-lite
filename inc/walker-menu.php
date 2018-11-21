@@ -66,27 +66,25 @@ class EnvestPro_Lite extends Walker_Nav_Menu {
 			$classes[] = 'menu-item-' . $item->ID;
 			$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) ); 
 			if ( $args->has_children ) {
-				$class_names .= ' dropdown'; }
+				$class_names .= ' dropdown submenu'; 
+				if($depth>=1){
+					$class_names .= ' newpos'; 
+				}
+			}
 			if ( in_array( 'current-menu-item', $classes ) ) {
-				//$class_names .= ' active';  
+				$class_names .= ' active';  
 			}
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 			$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
 			$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 			$output .= $indent . '<li' . $id . $value . $class_names .'>';
-			$atts = array();
-			if ( empty( $item->attr_title ) ) {
-	  			$atts['title']  = ! empty( $item->title )   ? strip_tags( $item->title ) : '';
-			} else {
-	  			$atts['title'] = $item->attr_title;
-			}
-			$atts['target'] = ! empty( $item->target )	? $item->target	: '';
-			$atts['rel']    = ! empty( $item->xfn )		? $item->xfn	: '';
+			$atts = array(); 
+			$atts['target'] = ! empty( $item->target )	? $item->target	: ''; 
 			// If item has_children add atts to a.
 			if ( in_array( 'current-menu-item', $classes ) ) {
 				$atts['class']			= 'active'; 
 			}
-			if ( $args->has_children && 0 === $depth ) {
+			if ( $args->has_children ) {
 				$atts['href']   		= '#';
 				$atts['data-toggle']	= 'dropdown';
 				if ( in_array( 'current-menu-item', $classes ) ) {
@@ -115,19 +113,18 @@ class EnvestPro_Lite extends Walker_Nav_Menu {
 			 * property is NOT null we apply it as the class name for the glyphicon.
 			 */
 
-			
 			if ( ! empty( $item->attr_title ) ) :
-							$pos = strpos( esc_attr( $item->attr_title ), 'glyphicon' );
+					$pos = strpos( esc_attr( $item->attr_title ), 'glyphicon' );
 				if ( false !== $pos ) :
 					$item_output .= '<a'. $attributes .'><span class="glyphicon ' . esc_attr( $item->attr_title ) . '"></span>&nbsp;';
-							else :
-								$item_output .= '<a'. $attributes .'><i class="fa ' . esc_attr( $item->attr_title ) . '"></i>&nbsp;';
-										endif;
+						else :
+							$item_output .= '<a'. $attributes .'><i class="fa ' . esc_attr( $item->attr_title ) . '"></i>&nbsp;';
+								endif;
 			else :
 				$item_output .= '<a'. $attributes .'>';
 			endif;
 			$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
-			$item_output .= ( $args->has_children && 0 === $depth ) ? ' <b class="caret"></b></a>' : '</a>';
+			$item_output .= ( $args->has_children ) ? ' <b class="caret"></b></a>' : '</a>';
 			$item_output .= $args->after;
 			$output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
 		}

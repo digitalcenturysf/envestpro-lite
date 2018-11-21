@@ -19,7 +19,7 @@
 		<figure><img src="<?php echo esc_url($envestpro_lite_blog_img); ?>" alt="<?php the_title(); ?>"></figure> 
 	<?php endif; ?>
 	<div class="news_overlay <?php echo esc_attr($envestpro_lite_blog_cls); ?>">
-	  <h6><i class="fa fa-calendar"></i> <?php comments_number( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite') ); ?>  - <i class="fa fa-eye"></i> <?php $envestpro_postviews =  envestpro_lite_getPostViews(get_the_ID()); echo esc_html($envestpro_postviews); ?>
+	  <h6><i class="fa fa-calendar"></i> <?php comments_number( __('0 Comment','envestpro-lite'), __('1 Comment','envestpro-lite'), __('% Comments','envestpro-lite') ); ?>  
         <?php   if ( is_sticky() ) { ?>
             <i class="dashicons dashicons-admin-post sticky-icon"></i> <?php esc_html_e( 'Sticky ', 'envestpro-lite' ); ?>
         <?php } ?> 
