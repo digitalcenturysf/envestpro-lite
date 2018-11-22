@@ -36,37 +36,13 @@ The EnvestPro Lite WordPress theme is 100% GPLv2. See headers of files for furth
 
 == Resources ==
  
-Font Awesome icons, Copyright Dave Gandy
-License: SIL Open Font License
-Source: http://fontawesome.io/
+* logo.png © 2018 digitalcenturysf, Custom made
+* dcsf-logo.png © 2018 digitalcenturysf, Custom made
+* blue-back.jpg © 2018 digitalcenturysf, Custom made
+* black-back.jpg © 2018 digitalcenturysf, Custom made
+* heading-image.jpg © 2018 Pixabay, https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/
+* envest.jpg © 2018 Skitterphoto, CC0,https://www.pexels.com/photo/house-money-capitalism-fortune-12619/
+* envest2.jpg © 2018 Public Domain Pictures , CC0,https://www.pexels.com/photo/brass-round-7-stack-coins-40140/
+* Font Awesome © 2018 Dave Gandy, STL, http://fontawesome.io/
+* Bootstrap © 2011-2016 Twitter, MIT, http://getbootstrap.com 
  
-Bootstrap, Copyright 2011-2016 Twitter
-Bootstrap is released under the MIT license
-Source: http://getbootstrap.com
-
-Jquery CounterUp, Copyright 2013, Benjamin Intal 
-Jquery CounterUp is Released under the GPL v2 License
-Source: http://gambit.ph @bfintal
-
-ResponsiveSlides (c) 2011-2012 @viljamis
-ResponsiveSlides is Available under the MIT license
-Source: http://responsiveslides.com
-
-Fonts:
-http://fonts.googleapis.com/css?family=Poppins
-http://fonts.googleapis.com/css?family=Montserrat
-http://fonts.googleapis.com/css?family=Arimo
-They are under SIL Open Font.
- 
-* Banner Image, Copyright Pixabay
-* License: CC0 1.0 Universal (CC0 1.0) 
-* Source: https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/
-
-* Post Image 1, Copyright Public Domain Pictures  
-* License: CC0 1.0 Universal (CC0 1.0) 
-* Source: https://www.pexels.com/photo/brass-round-7-stack-coins-40140/
-
-* Post Image 2, Copyright Skitterphoto  
-* License: CC0 1.0 Universal (CC0 1.0) 
-* Source: https://www.pexels.com/photo/house-money-capitalism-fortune-12619/
-
