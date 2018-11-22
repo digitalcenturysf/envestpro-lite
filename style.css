@@ -1103,3 +1103,20 @@ p.comment-form-cookies-consent {
     left: 100%;
     top: 0; 
 }
+button.navbar-toggle {
+    height: 38px;
+    position: relative;
+}
+button.navbar-toggle.opn > span:nth-child(2){
+    transform: rotate(45deg);
+    left: 0;
+}
+button.navbar-toggle.opn > span:nth-child(3){
+    display: none;
+}
+button.navbar-toggle.opn > span:nth-child(4){
+    transform: rotate(135deg);
+    position: absolute; 
+    top: 13px;
+}
+

@@ -57,5 +57,12 @@
     e.stopPropagation();
     e.preventDefault();
   });
+
+  // navbar dropdown toggle
+  $('button.navbar-toggle').on("click", function(e){
+    $(this).toggleClass('opn'); 
+  });
+
+
 });
 })(jQuery);		

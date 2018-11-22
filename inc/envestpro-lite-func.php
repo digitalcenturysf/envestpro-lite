@@ -37,44 +37,7 @@ function envestpro_lite_copyright(){
     }
 }
  
-/**
- * Get post ID.
- *  
- * @param bool $postID    this is post ID.
- */  
-function envestpro_lite_getPostViews($postID){
-    $count_key = 'post_views_count';
-    $count = get_post_meta($postID, $count_key, true);
-    if($count==0){
-        delete_post_meta($postID, $count_key);
-        add_post_meta($postID, $count_key, '0');
-        return __('0 Views','envestpro-lite');
-    }elseif($count==1){
-		return $count. __(' Views','envestpro-lite');
-    }else{
-    	return $count. __(' Views','envestpro-lite');
-    }
-}
-
-/**
- * Set post ID.
- *  
- * @param bool $postID    this is post ID.
- */  
-function envestpro_lite_setPostViews($postID) {
-    $count_key = 'post_views_count';
-    $count = get_post_meta($postID, $count_key, true);
-    if($count==''){
-        $count = 0;
-        delete_post_meta($postID, $count_key);
-        add_post_meta($postID, $count_key, '0');
-    }else{
-        $count++;
-        update_post_meta($postID, $count_key, $count);
-    }
-}
-
-
+ 
 /**
  * Comment list. 
  * 
