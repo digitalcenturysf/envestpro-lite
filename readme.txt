@@ -40,9 +40,9 @@ The EnvestPro Lite WordPress theme is 100% GPLv2. See headers of files for furth
 * dcsf-logo.png © 2018 digitalcenturysf, Custom made
 * blue-back.jpg © 2018 digitalcenturysf, Custom made
 * black-back.jpg © 2018 digitalcenturysf, Custom made
-* heading-image.jpg © 2018 Pixabay, https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/
-* envest.jpg © 2018 Skitterphoto, CC0,https://www.pexels.com/photo/house-money-capitalism-fortune-12619/
-* envest2.jpg © 2018 Public Domain Pictures , CC0,https://www.pexels.com/photo/brass-round-7-stack-coins-40140/
+* heading-image.jpg © 2018 Pixabay, CC0, https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/
+* envest.jpg © 2018 Skitterphoto, CC0, https://www.pexels.com/photo/house-money-capitalism-fortune-12619/
+* envest2.jpg © 2018 Public Domain Pictures , CC0, https://www.pexels.com/photo/brass-round-7-stack-coins-40140/
 * Font Awesome © 2018 Dave Gandy, STL, http://fontawesome.io/
 * Bootstrap © 2011-2016 Twitter, MIT, http://getbootstrap.com 
  
