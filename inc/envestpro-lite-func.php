@@ -96,8 +96,7 @@ add_filter('comment_form_default_fields','envestpro_lite_comment_fields');
 /**
  * Comment form field order change.
  */   
-function envestpro_lite_form_order_textarea()
-{
+function envestpro_lite_form_order_textarea(){
     echo '<li>
             <textarea class="form_txt_msg" id="comment" name="comment" cols="30" rows="4" placeholder="'.esc_attr("Comment","envestpro-lite").'" required></textarea> 
          </li> </ul>';

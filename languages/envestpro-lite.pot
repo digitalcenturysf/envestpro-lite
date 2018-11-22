@@ -141,17 +141,6 @@ msgstr ""
 msgid "WordPress Theme"
 msgstr ""
 
-#: inc/envestpro-lite-func.php:53
-#@ envestpro-lite
-msgid "0 Views"
-msgstr ""
-
-#: inc/envestpro-lite-func.php:55
-#: inc/envestpro-lite-func.php:57
-#@ envestpro-lite
-msgid " Views"
-msgstr ""
-
 #: inc/envestpro-lite-func.php:101
 #@ envestpro-lite
 msgid " at "
